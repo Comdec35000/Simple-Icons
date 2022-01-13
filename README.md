@@ -1,7 +1,7 @@
 
 ## Simple Icons
 
-<img src="https://github.com/Comdec35000/Simple-Icons/blob/master/LOGO.png" alt="logo">
+<img src="https://raw.githubusercontent.com/Comdec35000/Simple-Icons/master/LOGO.png" alt="logo">
 
 # Introduction
 **Simple icons** is a simple icon theme for visual studio code. The theme is currently in BETA, so we're openned to suggestions.
@@ -23,7 +23,7 @@ Consider suggesting icons [here](#Suggest)
 
 # Currently available icons
 
-<img src="https://github.com/Comdec35000/Simple-Icons/blob/master/assets/sample.png" alt="icons sample">
+<img src="https://raw.githubusercontent.com/Comdec35000/Simple-Icons/master/assets/sample.png" alt="icons sample">
 
 
 # More

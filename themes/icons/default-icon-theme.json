@@ -1,0 +1,926 @@
+{
+    "file": "_file_default",
+    "folder": "_folder_default_close",
+    "folderExpanded": "_folder_default_open",
+
+    "fileExtensions": {
+
+        // DEFAULT
+
+        //3d
+        "stl": "3d",
+        "obj": "3d",
+        "ac": "3d",
+        "blend": "3d",
+        "mesh": "3d",
+        "mqo": "3d",
+        "pmd": "3d",
+        "pmx": "3d",
+        "skp": "3d",
+        "vac": "3d",
+        "vdp": "3d",
+        "vox": "3d",
+
+        //audio
+        "mp3": "audio",
+        "flac": "audio",
+        "m4a": "audio",
+        "wma": "audio",
+        "aiff": "audio",
+        "wav": "audio",
+
+        //font 
+        "woff": "font",
+        "woff2": "font",
+        "ttf": "font",
+        "eot": "font",
+        "suit": "font",
+        "otf": "font",
+        "bmap": "font",
+        "fnt": "font",
+        "odttf": "font",
+        "ttc": "font",
+        "font": "font",
+        "fonts": "font",
+        "sui": "font",
+        "ntf": "font",
+        "mrf": "font",
+
+        //image
+        "png": "image",
+        "jpeg": "image",
+        "jpg": "image",
+        "gif": "image",
+        "ico": "image",
+        "tif": "image",
+        "tiff": "image",
+        "psd": "image",
+        "psb": "image",
+        "ami": "image",
+        "apx": "image",
+        "bmp": "image",
+        "bpg": "image",
+        "brk": "image",
+        "cur": "image",
+        "dds": "image",
+        "dng": "image",
+        "exr": "image",
+        "fpx": "image",
+        "gbr": "image",
+        "img": "image",
+        "jbig2": "image",
+        "jb2": "image",
+        "jng": "image",
+        "jxr": "image",
+        "pgf": "image",
+        "pic": "image",
+        "raw": "image",
+        "webp": "image",
+        "eps": "image",
+        "afphoto": "image",
+        "ase": "image",
+        "aseprite": "image",
+        "clip": "image",
+        "cpt": "image",
+        "heif": "image",
+        "heic": "image",
+        "kra": "image",
+        "mdp": "image",
+        "ora": "image",
+        "pdn": "image",
+        "reb": "image",
+        "sai": "image",
+        "tga": "image",
+        "xcf": "image",
+        "jfif": "image",
+        "ppm": "image",
+        "pbm": "image",
+        "pgm": "image",
+        "pnm": "image",
+
+        //txt
+        "txt" : "text",
+
+
+
+        // FILES
+
+        //agda
+        "agda" : "agda",
+        "lagda" : "agda",
+        "lagda.md" : "agda",
+        "lagda.rst" : "agda",
+        "lagda.tex" : "agda",
+
+        //angular
+        "module.ts": "angular",
+        "module.js": "angular",
+        "ng-template": "angular",
+        "component.ts": "angular",
+        "component.js": "angular",
+        "guard.ts": "angular",
+        "guard.js": "angular",
+        "service.ts": "angular",
+        "service.js": "angular",
+        "pipe.ts": "angular",
+        "pipe.js": "angular",
+        "filter.js": "angular",
+        "directive.ts": "angular",
+        "directive.js": "angular",
+        "resolver.ts": "angular",
+        "resolver.js": "angular",
+
+        //apple
+        "applescript": "apple",
+        "ipa": "apple",
+
+        //assembly
+        "asm": "asm",
+        "a51": "asm",
+        "inc": "asm",
+        "nasm": "asm",
+        "s": "asm",
+        "ms": "asm",
+        "agc": "asm",
+        "ags": "asm",
+        "aea": "asm",
+        "argus": "asm",
+        "mitigus": "asm",
+        "binsource": "asm",
+
+        //c
+        "c" : "c",
+
+        //cobol
+        "cob": "cobol",
+        "cbl": "cobol",
+
+        //cpp 
+        "cc": "cpp",
+        "cpp": "cpp",
+        "cxx": "cpp",
+        "c++": "cpp",
+        "cp": "cpp",
+
+        //csharp
+        "cs": "csharp",
+        "csx": "csharp",
+
+        //css
+        "css": "css",
+        "css.map": "css",
+
+        //dart 
+        "dart": "dart",
+
+        //docker
+        "dockerignore": "docker",
+        "dockerfile": "docker",
+
+        //env 
+        "env": "env",
+
+        //git
+        "patch": "git",
+
+        //go
+        "go" : "go",
+
+        //gradle
+        "gradle": "gradle",
+
+        //graphql 
+        "graphql": "graphql",
+        "gql": "graphql",
+
+        //h
+        "h" : "h",
+
+        //haskell 
+        "hs": "haskell",
+
+        //haxe
+        "hx": "haxe",
+
+        //hpp
+        "hh": "hpp",
+        "hpp": "hpp",
+        "hxx": "hpp",
+        "h++": "hpp",
+        "hp": "hpp",
+        "tcc": "hpp",
+        "inl": "hpp",
+
+        //html
+        "htm": "html",
+        "html": "html",
+        "xhtml": "html",
+        "html_vm": "html",
+        "asp": "html",
+
+        //idris
+        "idr": "idris",
+        "ibc": "idris",
+
+        //ini
+        "ini" : "ini",
+
+        //jar
+        "jar": "jar",
+
+        //java
+        "java": "java",
+        "jsp": "java",
+
+        //javaclass
+        "class": "javaclass",
+
+        //javascript 
+        "js" : "javascript",
+        "esx": "javascript",
+        "mjs": "javascript",
+        "js.map": "javascript-map",
+        "mjs.map": "javascript-map",
+        "cjs.map": "javascript-map",
+
+        //json
+        "json": "json",
+        "tsbuildinfo": "json",
+        "json5": "json",
+        "jsonl": "json",
+        "ndjson": "json",
+
+        //kotlin 
+        "kt": "kotlin",
+        "kts": "kotlin",
+
+        //lua
+        "lua": "lua",
+
+        //matlab 
+        "mat": "matlab",
+
+        //objc 
+        "m" : "objc",
+        "mm" : "objc",
+
+        //perl 
+        "pl" : "perl",
+        "pm": "perl",
+        "raku": "perl",
+
+        //php
+        "php": "php",
+
+        //postcss 
+        "pcss": "postcss",
+        "sss": "postcss",
+
+        //pyc
+        "pyc": "pyc",
+        "whl": "pyc",
+
+        //python
+        "py": "python",
+
+        //quark
+        "qrk" : "quark",
+
+        //react
+        "jsx": "react",
+        "tsx": "react",
+
+        //ruby
+        "rb": "ruby",
+        "erb": "ruby",
+
+        //rust 
+        "rs": "rust",
+
+        //sass
+        "scss": "sass",
+        "sass": "sass",
+
+        //sql 
+        "sql": "sql",
+        "sqlite": "sql",
+        "sqlite3": "sql",
+        "pgsql": "sql",
+        "psql": "sql",
+
+        //svg
+        "svg": "svg",
+
+        //swift
+        "swift": "swift",
+
+        //text
+        "plaintext": "document",
+
+        //typescript 
+        "d.ts": "typescript",
+        "ts": "typescript",
+
+        //vim 
+        "vimrc": "vim",
+        "gvimrc": "vim",
+        "exrc": "vim",
+        "vim": "vim",
+        "viminfo": "vim",
+
+        //toml 
+        "toml": "toml",
+
+        //vbs
+        "vb": "vba",
+        "vba": "vba",
+        "vbs": "vba",
+
+        //vue
+        "vue": "vue",
+
+        //wasm 
+        "wat": "wasm",
+        "wasm": "wasm",
+
+        //xml 
+        "xml": "xml",
+        "plist": "xml",
+        "xsd": "xml",
+        "dtd": "xml",
+        "xsl": "xml",
+        "xslt": "xml",
+        "resx": "xml",
+        "iml": "xml",
+        "xquery": "xml",
+        "tmLanguage": "xml",
+        "manifest": "xml",
+        "project": "xml",
+        "xml.dist": "xml",
+        "xml.dist.sample": "xml",
+        "dmn": "xml",
+
+        //yaml
+        "yml": "yaml",
+        "yaml": "yaml",
+        "yml.dist": "yaml",
+        "yaml.dist": "yaml",
+        "YAML-tmLanguage": "yaml",
+    },
+
+    "languageIds": {
+
+        //angular
+        "ng-template": "angular",
+
+        //apple
+        "applescript": "applescript",
+
+        //c
+        "c": "c",
+
+        //cpp
+        "cpp": "cpp",
+
+        //csharp
+        "csharp": "csharp",
+
+        //css
+        "css": "css",
+
+        //dart 
+        "dart": "dart",
+
+        //docker
+        "dockerfile": "docker",
+
+        //editor-config
+        "editor-config": "editor-config",
+
+        //git
+        "git": "git",
+        "git-commit": "git",
+        "git-rebase": "git",
+        "ignore": "git",
+
+        //go
+        "go": "go",
+
+        //graphql 
+        "graphql": "graphql",
+
+        //haskell
+        "haskell": "haskell",
+
+        //haxe
+        "haxe": "haxe",
+        "hxml": "haxe",
+
+        //html
+        "html": "html",
+
+        //idris
+        "idris": "idris",
+
+        //java
+        "java": "java",
+
+        //javascript 
+        "javascript" : "javascript",
+
+        //json 
+        "json": "json",
+        "jsonc": "json",
+        "json5": "json",
+
+        //lua
+        "lua": "lua",
+
+        //matlab
+        "matlab": "matlab",
+        
+        //objc
+        "objective-c": "objc",
+        "objective-cpp": "objc",
+
+        //perl
+        "perl": "perl",
+        "perl6": "perl",
+
+        //php
+        "php": "php",
+
+        //postcss
+        "postcss": "postcss",
+
+        //pyc
+        "pip-requirements": "pyc",
+
+        //python
+        "python": "python",
+
+        //react
+        "javascriptreact": "react",
+        "typescriptreact": "react",
+
+        //ruby
+        "ruby": "ruby",
+
+        //rust 
+        "rust": "rust",
+
+        //sass
+        "sass": "sass",
+        "scss": "sass",
+
+        //sql 
+        "sql": "sql",
+
+        //svg 
+        "svg": "svg",
+
+        //swift
+        "swift": "swift",
+
+        //typescript
+        "typescript": "typescript",
+
+        //vim
+        "viml": "vim",
+
+        //toml 
+        "toml": "toml",
+
+        //vue
+        "vue": "vue",
+        "vue-postcss": "vue",
+        "vue-html": "vue",
+
+        //xml 
+        "xml": "xml",
+        "xquery": "xml",
+        "xsl": "xml",
+
+        //yaml 
+        "yaml": "yaml",
+
+    },
+
+    "fileNames": {
+
+        //angular
+        "angular-cli.json": "angular",
+        ".angular-cli.json": "angular",
+        "angular.json": "angular",
+
+        //cargo 
+        "cargo.toml" : "cargo",
+
+        //dart
+        ".pubignore": "dart",
+
+        //docker
+        "dockerfile": "docker",
+        "dockerfile.prod": "docker",
+        "dockerfile.production": "docker",
+        "dockerfile.alpha": "docker",
+        "dockerfile.beta": "docker",
+        "dockerfile.stage": "docker",
+        "dockerfile.staging": "docker",
+        "dockerfile.dev": "docker",
+        "dockerfile.development": "docker",
+        "dockerfile.local": "docker",
+        "dockerfile.test": "docker",
+        "dockerfile.testing": "docker",
+        "dockerfile.ci": "docker",
+        "dockerfile.web": "docker",
+        "dockerfile.worker": "docker",
+        "docker-compose.yml": "docker",
+        "docker-compose.override.yml": "docker",
+        "docker-compose.prod.yml": "docker",
+        "docker-compose.production.yml": "docker",
+        "docker-compose.alpha.yml": "docker",
+        "docker-compose.beta.yml": "docker",
+        "docker-compose.stage.yml": "docker",
+        "docker-compose.staging.yml": "docker",
+        "docker-compose.dev.yml": "docker",
+        "docker-compose.development.yml": "docker",
+        "docker-compose.local.yml": "docker",
+        "docker-compose.test.yml": "docker",
+        "docker-compose.testing.yml": "docker",
+        "docker-compose.ci.yml": "docker",
+        "docker-compose.web.yml": "docker",
+        "docker-compose.worker.yml": "docker",
+        "docker-compose.yaml": "docker",
+        "docker-compose.override.yaml": "docker",
+        "docker-compose.prod.yaml": "docker",
+        "docker-compose.production.yaml": "docker",
+        "docker-compose.alpha.yaml": "docker",
+        "docker-compose.beta.yaml": "docker",
+        "docker-compose.stage.yaml": "docker",
+        "docker-compose.staging.yaml": "docker",
+        "docker-compose.dev.yaml": "docker",
+        "docker-compose.development.yaml": "docker",
+        "docker-compose.local.yaml": "docker",
+        "docker-compose.test.yaml": "docker",
+        "docker-compose.testing.yaml": "docker",
+        "docker-compose.ci.yaml": "docker",
+        "docker-compose.web.yaml": "docker",
+        "docker-compose.worker.yaml": "docker",
+
+        //editor-config 
+        ".editorconfig": "editor-config",
+
+        //env
+        ".env.defaults": "env",
+        ".env.example": "env",
+        ".env.sample": "env",
+        ".env.template": "env",
+        ".env.schema": "env",
+        ".env.local": "env",
+        ".env.dev": "env",
+        ".env.development": "env",
+        ".env.qa": "env",
+        ".env.dist": "env",
+        ".env.prod": "env",
+        ".env.production": "env",
+        ".env.stage": "env",
+        ".env.staging": "env",
+        ".env.preview": "env",
+        ".env.test": "env",
+        ".env.testing": "env",
+        ".env.development.local": "env",
+        ".env.qa.local": "env",
+        ".env.production.local": "env",
+        ".env.staging.local": "env",
+        ".env.test.local": "env",
+
+        //eslint
+        ".eslintrc.js": "eslint",
+        ".eslintrc.cjs": "eslint",
+        ".eslintrc.yaml": "eslint",
+        ".eslintrc.yml": "eslint",
+        ".eslintrc.json": "eslint",
+        ".eslintrc-md.js": "eslint",
+        ".eslintrc-jsdoc.js": "eslint",
+        ".eslintrc": "eslint",
+        ".eslintignore": "eslint",
+        ".eslintcache": "eslint",
+
+        //git
+        ".gitignore": "git",
+        ".gitignore_global": "git",
+        ".gitconfig": "git",
+        ".gitattributes": "git",
+        ".gitmodules": "git",
+        ".gitkeep": "git",
+        ".gitinclude": "git",
+        "git-history": "git",
+
+        //go
+        "go.mod": "go-mod",
+        "go.sum": "go-mod",
+
+        //gradle
+        "gradle.properties": "gradle",
+        "gradlew": "gradle",
+        "gradle-wrapper.properties": "gradle",
+
+        //graphql
+        ".graphqlconfig": "graphql",
+        ".graphqlrc": "graphql",
+        ".graphqlrc.json": "graphql",
+        ".graphqlrc.js": "graphql",
+        ".graphqlrc.ts": "graphql",
+        ".graphqlrc.toml": "graphql",
+        ".graphqlrc.yaml": "graphql",
+        ".graphqlrc.yml": "graphql",
+        "graphql.config.json": "graphql",
+        "graphql.config.js": "graphql",
+        "graphql.config.ts": "graphql",
+        "graphql.config.toml": "graphql",
+        "graphql.config.yaml": "graphql",
+        "graphql.config.yml": "graphql",
+
+        //json
+        ".jscsrc": "json",
+        ".jshintrc": "json",
+        "composer.lock": "json",
+        ".jsbeautifyrc": "json",
+        ".esformatter": "json",
+        "cdp.pid": "json",
+        ".lintstagedrc": "json",
+
+        //lua
+        ".luacheckrc": "lua",
+
+        //maven
+        "maven.config": "maven",
+        "jvm.config": "maven",
+
+        //next
+        "next.config.js": "next",
+        "next.config.ts": "next",
+
+        //node
+        "package.json": "node",
+        "package-lock.json": "node",
+        ".nvmrc": "node",
+        ".esmrc": "node",
+        ".node-version": "node",
+
+        //npm
+        ".npmignore": "npm",
+        ".npmrc": "npm",
+
+        //postcss
+        "postcss.config.js": "postcss",
+        "postcss.config.cjs": "postcss",
+        ".postcssrc.js": "postcss",
+        ".postcssrc": "postcss",
+        ".postcssrc.json": "postcss",
+        ".postcssrc.yml": "postcss",
+
+        //pyc
+        "requirements.txt": "pyc",
+        "pipfile": "pyc",
+        ".python-version": "pyc",
+        "manifest.in": "pyc",
+        "pylintrc": "pyc",
+        ".pylintrc": "pyc",
+
+        //tailwind 
+        "tailwind.js": "tailwind",
+        "tailwind.ts": "tailwind",
+        "tailwind.config.js": "tailwind",
+        "tailwind.config.ts": "tailwind",
+        "tailwind.config.cjs": "tailwind",
+
+        //vue
+        "vue.config.js": "vue",
+        "vue.config.ts": "vue",
+        "vetur.config.js": "vue",
+        "vetur.config.ts": "vue",
+
+        //xml 
+        ".htaccess": "xml",
+
+    },
+
+
+
+    "iconDefinitions": {
+
+        //default
+        "_file_default" : {
+            "iconPath": "../../assets/icons/File_default.svg"
+        },
+        "_folder_default_close" : {
+            "iconPath": "../../assets/icons/Folder_default_close.svg"
+        },
+        "_folder_default_open" : {
+            "iconPath": "../../assets/icons/Folder_default_open.svg"
+        },
+        "3d" : {
+            "iconPath": "../../assets/icons/3D.svg"
+        },
+        "text" : {
+            "iconPath": "../../assets/icons/File_Text.svg"
+        },
+        "audio" : {
+            "iconPath": "../../assets/icons/File_Music.svg"
+        },
+        "image" : {
+            "iconPath": "../../assets/icons/File_Image.svg"
+        },
+        "font" : {
+            "iconPath": "../../assets/icons/File_font.svg"
+        },
+
+        //files
+
+        "agda" : {
+            "iconPath": "../../assets/icons/Agda.svg"
+        },
+        "angular" : {
+            "iconPath": "../../assets/icons/Angular.svg"
+        },
+        "apple" : {
+            "iconPath": "../../assets/icons/Apple.svg"
+        },
+        "asm" : {
+            "iconPath": "../../assets/icons/ASM.svg"
+        },
+        "c" : {
+            "iconPath": "../../assets/icons/C.svg"
+        },
+        "cargo" : {
+            "iconPath": "../../assets/icons/Cargo.svg"
+        },
+        "cobol" : {
+            "iconPath": "../../assets/icons/Cobol.svg"
+        },
+        "cpp" : {
+            "iconPath": "../../assets/icons/Cpp.svg"
+        },
+        "csharp" : {
+            "iconPath": "../../assets/icons/Csharp.svg" 
+        },
+        "css" : {
+            "iconPath": "../../assets/icons/CSS.svg" 
+        },
+        "dart" : {
+            "iconPath": "../../assets/icons/Dart.svg"
+        },
+        "docker" : {
+            "iconPath": "../../assets/icons/Docker.svg"
+        }, 
+        "editor-config" : {
+            "iconPath": "../../assets/icons/EditorConfig.svg"
+        },
+        "env" : {
+            "iconPath": "../../assets/icons/ENV.svg"
+        },
+        "eslint" : {
+            "iconPath": "../../assets/icons/Eslint.svg"
+        },
+        "git" : {
+            "iconPath": "../../assets/icons/Git.svg"
+        },
+        "go" : {
+            "iconPath": "../../assets/icons/GO.svg"
+        },
+        "gradle" : {
+            "iconPath": "../../assets/icons/Gradle.svg"
+        },
+        "graphql" : {
+            "iconPath": "../../assets/icons/GraphQL.svg"
+        },
+        "h" : {
+            "iconPath": "../../assets/icons/H.svg"
+        },
+        "haskell" : {
+            "iconPath": "../../assets/icons/Haskell.svg"
+        },
+        "haxe" : {
+            "iconPath": "../../assets/icons/Haxe.svg"
+        },
+        "hpp" : {
+            "iconPath": "../../assets/icons/HPP.svg"
+        },
+        "html" : {
+            "iconPath": "../../assets/icons/HTML.svg"
+        },
+        "idris" : {
+            "iconPath": "../../assets/icons/Idris.svg"
+        },
+        "ini" : {
+            "iconPath": "../../assets/icons/Ini.svg"
+        },
+        "jar" : {
+            "iconPath": "../../assets/icons/JAR.svg"
+        },
+        "java" : {
+            "iconPath": "../../assets/icons/JAVA.svg"
+        },
+        "javaclass" : {
+            "iconPath": "../../assets/icons/CLASS.svg"
+        },
+        "javascript" : {
+            "iconPath": "../../assets/icons/Javascript.svg"
+        },
+        "json" : {
+            "iconPath": "../../assets/icons/JSON.svg"
+        },
+        "kotlin" : {
+            "iconPath": "../../assets/icons/Kotlin.svg"
+        },
+        "lua" : {
+            "iconPath": "../../assets/icons/Lua.svg"
+        },
+        "matlab" : {
+            "iconPath": "../../assets/icons/MatLab.svg"
+        },
+        "maven" : {
+            "iconPath": "../../assets/icons/Maven.svg"
+        },
+        "next" : {
+            "iconPath": "../../assets/icons/Next.svg"
+        },
+        "node" : {
+            "iconPath": "../../assets/icons/Node.svg"
+        },
+        "npm" : {
+            "iconPath": "../../assets/icons/NPM.svg"
+        },
+        "objc" : {
+            "iconPath": "../../assets/icons/ObjectiveC.svg"
+        },
+        "perl" : {
+            "iconPath": "../../assets/icons/Perl.svg"
+        },
+        "php" : {
+            "iconPath": "../../assets/icons/PHP.svg"
+        },
+        "postcss" : {
+            "iconPath": "../../assets/icons/PostCSS.svg"
+        },
+        "pyc" : {
+            "iconPath": "../../assets/icons/Pyc.svg"
+        },
+        "python" : {
+            "iconPath": "../../assets/icons/Python.svg"
+        },
+        "quark" : {
+            "iconPath": "../../assets/icons/Quark.svg"
+        },
+        "react" : {
+            "iconPath": "../../assets/icons/React.svg"
+        },
+        "ruby" : {
+            "iconPath": "../../assets/icons/Ruby.svg"
+        },
+        "rust" : {
+            "iconPath": "../../assets/icons/Rust.svg"
+        },
+        "sass" : {
+            "iconPath": "../../assets/icons/Sass.svg"
+        },
+        "sql" : {
+            "iconPath": "../../assets/icons/SQL.svg"
+        },
+        "svg" : {
+            "iconPath": "../../assets/icons/SVG.svg"
+        },
+        "swift" : {
+            "iconPath": "../../assets/icons/Swift.svg"
+        },
+        "tailwind" : {
+            "iconPath": "../../assets/icons/Tailwind.svg"
+        },
+        "toml" : {
+            "iconPath": "../../assets/icons/TOML.svg"
+        },
+        "typescript" : {
+            "iconPath": "../../assets/icons/TypeScript.svg"
+        },
+        "vba" : {
+            "iconPath": "../../assets/icons/VBA.svg"
+        },
+        "vim" : {
+            "iconPath": "../../assets/icons/Vim.svg"
+        },
+        "vue" : {
+            "iconPath": "../../assets/icons/Vue.svg"
+        },
+        "wasm" : {
+            "iconPath": "../../assets/icons/WASM.svg"
+        },
+        "xml" : {
+            "iconPath": "../../assets/icons/XML.svg"
+        },
+        "yaml" : {
+            "iconPath": "../../assets/icons/YAML.svg"
+        }
+    }
+}

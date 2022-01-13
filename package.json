@@ -4,12 +4,13 @@
     "author": { 
         "name": "Comdec_"
      },
+    "publisher": "comdec",
     "description": "BETA version of simple icon theme",
-    "version": "beta",
+    "version": "0.0.0",
     "engines": {
         "vscode": "^1.63.0"
     },
-    "icon": "logo.png",
+    "icon": "LOGO.png",
     "repository": {
 		"type": "git",
 		"url": "https://github.com/Comdec35000/Simple-Icons"

@@ -1,27 +1,29 @@
 
 ## Simple Icons
 
-![](https://github.com/Comdec35000/Simple-Icons/blob/master/LOGO.png)
+<img src="https://github.com/Comdec35000/Simple-Icons/blob/master/LOGO.png" alt="logo">
 
 # Introduction
-**Simple icons** is a simple icon theme for visual studio code. The theme is currently in BETA, so we're openned to suggestions
+**Simple icons** is a simple icon theme for visual studio code. The theme is currently in BETA, so we're openned to suggestions.
 
 
 # Suggest
 
 As long as th e project is a Beta, you can suggest new icons [by oppening an issue](https://github.com/Comdec35000/Simple-Icons/issues/new)
 
-You can also make a pull request to add your projects/prefered langages to the theme
+You can also make a pull request to add your projects/prefered langages to the theme.
 
 
 # Planned features
 
 All folders icons will be added in the theme really soon, all the designs are already created create.
+We also plane to add markdown and Clojure specific icons.
+Consider suggesting icons [here](#Suggest)
 
 
 # Currently available icons
 
-![](https://github.com/Comdec35000/Simple-Icons/blob/master/assets/sample.png)
+<img src="https://github.com/Comdec35000/Simple-Icons/blob/master/assets/sample.png" alt="icons sample">
 
 
 # More

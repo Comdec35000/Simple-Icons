@@ -6,7 +6,7 @@
      },
     "publisher": "comdec",
     "description": "BETA version of simple icon theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.63.0"
     },
@@ -15,6 +15,9 @@
 		"type": "git",
 		"url": "https://github.com/Comdec35000/Simple-Icons"
 	},
+    "bugs": {
+        "url": "https://github.com/Comdec35000/Simple-Icons/issues/new"
+    },
     "categories": [
         "Themes"
     ],

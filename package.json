@@ -1,14 +1,33 @@
 {
     "name": "simple-icons",
     "displayName": "Simple Icons",
-    "description": "BETA",
-    "version": "0.0.1",
+    "author": { 
+        "name": "Comdec_"
+     },
+    "description": "BETA version of simple icon theme",
+    "version": "beta",
     "engines": {
         "vscode": "^1.63.0"
     },
+    "icon": "logo.png",
+    "repository": {
+		"type": "git",
+		"url": "https://github.com/Comdec35000/Simple-Icons"
+	},
     "categories": [
         "Themes"
     ],
+    "keywords": [
+		"icons",
+		"theme",
+		"icon-theme",
+		"customization",
+        "simple"
+	],
+    "extensionKind": [
+		"ui",
+		"workspace"
+	],
     "contributes": {
         "iconThemes": [
             {

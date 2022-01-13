@@ -1,9 +1,5 @@
-# Change Log
+## Changelog 13/01/22
 
-All notable changes to the "frame-icons" extension will be documented in this file.
+- Added 179 icons to vscode
+- Linked 67 icons to file types
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release

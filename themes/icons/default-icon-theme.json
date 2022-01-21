@@ -148,8 +148,16 @@
         "mitigus": "asm",
         "binsource": "asm",
 
+        //binaries
+        "exe" : "binaries",
+        "dll" : "binaries",
+        "dlc" : "binaries",
+
         //c
         "c" : "c",
+
+        //cmake 
+        "cmake": "cmake",
 
         //cobol
         "cob": "cobol",
@@ -179,6 +187,12 @@
 
         //env 
         "env": "env",
+
+        //fsharp
+        "fs" : "fsharp",
+        "fsi" : "fsharp",
+        "fsx" : "fsharp",
+        "fsscript" : "fsharp",
 
         //git
         "patch": "git",
@@ -257,8 +271,16 @@
         //lua
         "lua": "lua",
 
+        //md
+        "md": "md",
+        "markdown": "md",
+        "rst": "md",
+
         //matlab 
         "mat": "matlab",
+
+        //ninja 
+        "ninja" : "ninja",
 
         //objc 
         "m" : "objc",
@@ -275,6 +297,14 @@
         //postcss 
         "pcss": "postcss",
         "sss": "postcss",
+
+        //powershell
+        "ps1": "powershell",
+        "psm1": "powershell",
+        "psd1": "powershell",
+        "ps1xml": "powershell",
+        "psc1": "powershell",
+        "pssc": "powershell",
 
         //pyc
         "pyc": "pyc",
@@ -336,6 +366,16 @@
         "vba": "vba",
         "vbs": "vba",
 
+        //visualstudio 
+        "csproj": "visualstudio",
+        "ruleset": "visualstudio",
+        "sln": "visualstudio",
+        "suo": "visualstudio",
+        "vcxitems": "visualstudio",
+        "vcxitems.filters": "visualstudio",
+        "vcxproj": "visualstudio",
+        "vcxproj.filters": "visualstudio",
+
         //vue
         "vue": "vue",
 
@@ -376,6 +416,12 @@
         //apple
         "applescript": "applescript",
 
+        //bash
+        "shellscript": "bash",
+
+        //batch
+        "bat": "batch",
+
         //c
         "c": "c",
 
@@ -396,6 +442,9 @@
 
         //editor-config
         "editor-config": "editor-config",
+
+        //fsharp
+        "fsharp" : "fsharp",
 
         //git
         "git": "git",
@@ -436,6 +485,9 @@
         //lua
         "lua": "lua",
 
+        //md
+        "markdown": "md",
+
         //matlab
         "matlab": "matlab",
         
@@ -452,6 +504,9 @@
 
         //postcss
         "postcss": "postcss",
+
+        //powershell 
+        "powershell": "powershell",
 
         //pyc
         "pip-requirements": "pyc",
@@ -485,11 +540,23 @@
         //typescript
         "typescript": "typescript",
 
+        //toml 
+        "toml": "toml",
+
+        //vbs
+        "vb" : "vbs",
+
         //vim
         "viml": "vim",
 
-        //toml 
-        "toml": "toml",
+        //visualstudio
+        "testOutput": "visualstudio",
+
+        //vsc
+        "vscodeignore": "vsc",
+        "vsixmanifest": "vsc",
+        "vsix": "vsc",
+        "code-workplace": "vsc",
 
         //vue
         "vue": "vue",
@@ -515,6 +582,10 @@
 
         //cargo 
         "cargo.toml" : "cargo",
+
+        //cmake 
+        "cmakelists.txt": "cmake",
+        "cmakecache.txt": "cmake",
 
         //dart
         ".pubignore": "dart",
@@ -618,8 +689,8 @@
         "git-history": "git",
 
         //go
-        "go.mod": "go-mod",
-        "go.sum": "go-mod",
+        "go.mod": "gomod",
+        "go.sum": "gomod",
 
         //gradle
         "gradle.properties": "gradle",
@@ -696,6 +767,9 @@
         "tailwind.config.ts": "tailwind",
         "tailwind.config.cjs": "tailwind",
 
+        //vsc
+        "launch.json" : "vsc",
+
         //vue
         "vue.config.js": "vue",
         "vue.config.ts": "vue",
@@ -707,7 +781,523 @@
 
     },
 
+    "folderNames": {
 
+        //abstract
+        "abstract" : "folder-abstract",
+        "abstracts" : "folder-abstract",
+
+        //admin
+        "admin" : "folder-admin",
+        "admins" : "folder-admin",
+
+        //angular
+        "ng" : "folder-angular",
+        "angular" : "folder-angular",
+
+        //anim 
+        "anim" : "folder-anim",
+        "anims" : "folder-anim",
+        "animation" : "folder-anim",
+        "animations" : "folder-anim",
+        "gif" : "folder-anim",
+        "gifs" : "folder-anim",
+
+        //api 
+        "api" : "folder-api",
+
+        //app 
+        "app" : "folder-app",
+        "apps" : "folder-app",
+
+        //audio 
+        "audio" : "folder-audio",
+        "audios" : "folder-audio",
+        "sound" : "folder-audio",
+        "sounds" : "folder-audio",
+        "music" : "folder-audio",
+        "musics" : "folder-audio",
+
+        //class 
+        "class" : "folder-class",
+        "classes" : "folder-class",
+
+        //client 
+        "client" : "folder-client",
+        "clients" : "folder-client",
+        "front" : "folder-client",
+        "fronted" : "folder-client",
+
+        //cloud
+        "cloud" : "folder-cloud",
+        "clouds" : "folder-cloud",
+        "aws" : "folder-cloud",
+        "gcs" : "folder-cloud",
+
+        //cluster
+        "cluster" : "folder-cluster",
+        "clusters" : "folder-cluster",
+
+        //command 
+        "command" : "folder-command",
+        "commands" : "folder-command",
+        "bin" : "folder-command",
+        "cmd" : "folder-command",
+
+        //component
+        "component" : "folder-component",
+        "components" : "folder-component",
+
+        //config 
+        "config" : "folder-config",
+        "configs" : "folder-config",
+        "cfg" : "folder-config",
+        "cfgs" : "folder-config",
+
+        //contract 
+        "contract" : "folder-contract",
+        "contracts" : "folder-contract",
+
+        //core
+        "core" : "folder-core",
+        "cores" : "folder-core",
+
+        //database 
+        "database" : "folder-database",
+        "databases" : "folder-database",
+        "data" : "folder-database",
+        "datas" : "folder-database",
+        "sql" : "folder-database",
+
+        //dist
+        "dist" : "folder-dist",
+        "out" : "folder-dist",
+
+        //docker 
+        "docker" : "folder-docker",
+
+        //docs
+        "doc" : "folder-docs",
+        "docs" : "folder-docs",
+        "document" : "folder-docs",
+        "documentation" : "folder-docs",
+        "documentations" : "folder-docs",
+
+        //download 
+        "download" : "folder-download",
+        "downloads" : "folder-download",
+
+        //error 
+        "error" : "folder-error",
+        "errors" : "folder-error",
+
+        //event
+        "event" : "folder-event",
+        "events" : "folder-event",
+
+        //font 
+        "font" : "folder-font",
+        "fonts" : "folder-font",
+
+        //git
+        "git" : "folder-git",
+        ".git" : "folder-git",
+
+        //gradle
+        "gradle" : "folder-gradle",
+        ".gradle" : "folder-gradle",
+
+        //home 
+        "home" : "folder-home",
+        "homes" : "folder-home",
+
+        //image
+        "image" : "folder-image",
+        "images" : "folder-image",
+        "img" : "folder-image",
+        "imgs" : "folder-image",
+        "assets" : "folder-image",
+        "icon" : "folder-image",
+
+        //in 
+        "in" : "folder-in",
+        "input" : "folder-in",
+
+        //interface
+        "interface" : "folder-interface",
+        "interfaces" : "folder-interface",
+
+        //ios 
+        "ios" : "folder-ios",
+        "apple" : "folder-ios",
+        "mac" : "folder-ios",
+
+        //java
+        "java" : "folder-java",
+        "jar" : "folder-java",
+
+        //javascript
+        "javascript" : "folder-javascript",
+        "js" : "folder-javascript",
+        "script" : "folder-javascript",
+
+        //keys 
+        "keys" : "folder-keys",
+        "key" : "folder-keys",
+
+        //layout 
+        "layout" : "folder-layout",
+        "ui" : "folder-layout",
+
+        //lib
+        "lib" : "folder-lib",
+        "libs" : "folder-lib",
+        "libraries" : "folder-lib",
+
+        //log
+        "log" : "folder-log",
+        "logs" : "folder-log",
+        "history" : "folder-log",
+
+        //middleware
+        "middleware" : "folder-middleware",
+        "middlewares" : "folder-middleware",
+
+        //network 
+        "network" : "folder-network",
+        "networks" : "folder-network",
+        "packet" : "folder-network",
+        "packets" : "folder-network",
+        "route" : "folder-network",
+        "routes" : "folder-network",
+
+        //node 
+        "node" : "folder-node",
+        "node-modules" : "folder-node",
+        ".node" : "folder-node",
+        ".node-modules" : "folder-node",
+
+        //package
+        "package" : "folder-package",
+        "packages" : "folder-package",
+        "pkg" : "folder-package",
+        "pkgs" : "folder-package",
+
+        //page 
+        "page" : "folder-page",
+        "pages" : "folder-page",
+        "view" : "folder-page",
+        "views" : "folder-page",
+        "html" : "folder-page",
+        "htm" : "folder-page",
+
+        //pipe 
+        "pipe" : "folder-pipe",
+        "pipes" : "folder-pipe",
+
+        //private 
+        "private" : "folder-private",
+        "lock" : "folder-private",
+
+        //server 
+        "server" : "folder-server",
+        "servers" : "folder-server",
+        "back" : "folder-server",
+        "backend" : "folder-server",
+
+        //src
+        "src" : "folder-src",
+        "source" : "folder-src",
+
+        //style 
+        "style" : "folder-style",
+        "styles" : "folder-style",
+        "css" : "folder-style",
+        "stylesheets" : "folder-style",
+        "scss" : "folder-style",
+        "sass" : "folder-style",
+
+        //temp
+        "temp" : "folder-temp",
+
+        //test
+        "test" : "folder-test",
+        "tests" : "folder-test",
+
+        //typescript
+        "typescript" : "folder-typescript",
+        "ts" : "folder-typescript",
+
+        //vm 
+        "vm" : "folder-vm",
+
+        //vscode
+        "vscode" : "folder-vscode",
+        ".vscode" : "folder-vscode",
+
+        //yarn
+        "yarn" : "folder-yarn",
+        ".yarn" : "folder-yarn",
+    },
+
+    "folderNamesExpanded": {
+
+        //abstract
+        "abstract" : "folder-abstract-open",
+        "abstracts" : "folder-abstract-open",
+
+        //admin
+        "admin" : "folder-admin-open",
+        "admins" : "folder-admin-open",
+
+        //angular
+        "ng" : "folder-angular-open",
+        "angular" : "folder-angular-open",
+
+        //anim 
+        "anim" : "folder-anim-open",
+        "anims" : "folder-anim-open",
+        "animation" : "folder-anim-open",
+        "animations" : "folder-anim-open",
+        "gif" : "folder-anim-open",
+        "gifs" : "folder-anim-open",
+
+        //api 
+        "api" : "folder-api-open",
+
+        //app 
+        "app" : "folder-app-open",
+        "apps" : "folder-app-open",
+
+        //audio 
+        "audio" : "folder-audio-open",
+        "audios" : "folder-audio-open",
+        "sound" : "folder-audio-open",
+        "sounds" : "folder-audio-open",
+        "music" : "folder-audio-open",
+        "musics" : "folder-audio-open",
+
+        //class 
+        "class" : "folder-class-open",
+        "classes" : "folder-class-open",
+
+        //client 
+        "client" : "folder-client-open",
+        "clients" : "folder-client-open",
+        "front" : "folder-client-open",
+        "fronted" : "folder-client-open",
+
+        //cloud
+        "cloud" : "folder-cloud-open",
+        "clouds" : "folder-cloud-open",
+        "aws" : "folder-cloud-open",
+        "gcs" : "folder-cloud-open",
+
+        //cluster
+        "cluster" : "folder-cluster-open",
+        "clusters" : "folder-cluster-open",
+
+        //command 
+        "command" : "folder-command-open",
+        "commands" : "folder-command-open",
+        "bin" : "folder-command-open",
+        "cmd" : "folder-command-open",
+
+        //component
+        "component" : "folder-component-open",
+        "components" : "folder-component-open",
+
+        //config 
+        "config" : "folder-config-open",
+        "configs" : "folder-config-open",
+        "cfg" : "folder-config-open",
+        "cfgs" : "folder-config-open",
+
+        //contract 
+        "contract" : "folder-contract-open",
+        "contracts" : "folder-contract-open",
+
+        //core
+        "core" : "folder-core-open",
+        "cores" : "folder-core-open",
+
+        //database 
+        "database" : "folder-database-open",
+        "databases" : "folder-database-open",
+        "data" : "folder-database-open",
+        "datas" : "folder-database-open",
+        "sql" : "folder-database-open",
+
+        //dist
+        "dist" : "folder-dist-open",
+        "out" : "folder-dist-open",
+
+        //docker 
+        "docker" : "folder-docker-open",
+
+        //docs
+        "doc" : "folder-docs-open",
+        "docs" : "folder-docs-open",
+        "document" : "folder-docs-open",
+        "documentation" : "folder-docs-open",
+        "documentations" : "folder-docs-open",
+
+        //download 
+        "download" : "folder-download-open",
+        "downloads" : "folder-download-open",
+
+        //error 
+        "error" : "folder-error-open",
+        "errors" : "folder-error-open",
+
+        //event
+        "event" : "folder-event-open",
+        "events" : "folder-event-open",
+
+        //font 
+        "font" : "folder-font-open",
+        "fonts" : "folder-font-open",
+
+        //git
+        "git" : "folder-git-open",
+        ".git" : "folder-git-open",
+
+        //gradle
+        "gradle" : "folder-gradle-open",
+        ".gradle" : "folder-gradle-open",
+
+        //home 
+        "home" : "folder-home-open",
+        "homes" : "folder-home-open",
+
+        //image
+        "image" : "folder-image-open",
+        "images" : "folder-image-open",
+        "img" : "folder-image-open",
+        "imgs" : "folder-image-open",
+        "assets" : "folder-image-open",
+        "icon" : "folder-image-open",
+
+        //in 
+        "in" : "folder-in-open",
+        "input" : "folder-in-open",
+
+        //interface
+        "interface" : "folder-interface-open",
+        "interfaces" : "folder-interface-open",
+
+        //ios 
+        "ios" : "folder-ios-open",
+        "apple" : "folder-ios-open",
+        "mac" : "folder-ios-open",
+
+        //java
+        "java" : "folder-java-open",
+        "jar" : "folder-java-open",
+
+        //javascript
+        "javascript" : "folder-javascript-open",
+        "js" : "folder-javascript-open",
+        "script" : "folder-javascript-open",
+
+        //keys 
+        "keys" : "folder-keys-open",
+        "key" : "folder-keys-open",
+
+        //layout 
+        "layout" : "folder-layout-open",
+        "ui" : "folder-layout-open",
+
+        //lib
+        "lib" : "folder-lib-open",
+        "libs" : "folder-lib-open",
+        "libraries" : "folder-lib-open",
+
+        //log
+        "log" : "folder-log-open",
+        "logs" : "folder-log-open",
+        "history" : "folder-log-open",
+
+        //middleware
+        "middleware" : "folder-middleware-open",
+        "middlewares" : "folder-middleware-open",
+
+        //network 
+        "network" : "folder-network-open",
+        "networks" : "folder-network-open",
+        "packet" : "folder-network-open",
+        "packets" : "folder-network-open",
+        "route" : "folder-network-open",
+        "routes" : "folder-network-open",
+
+        //node 
+        "node" : "folder-node-open",
+        "node-modules" : "folder-node-open",
+        ".node" : "folder-node-open",
+        ".node-modules" : "folder-node-open",
+
+        //package
+        "package" : "folder-package-open",
+        "packages" : "folder-package-open",
+        "pkg" : "folder-package-open",
+        "pkgs" : "folder-package-open",
+
+        //page 
+        "page" : "folder-page-open",
+        "pages" : "folder-page-open",
+        "view" : "folder-page-open",
+        "views" : "folder-page-open",
+        "html" : "folder-page-open",
+        "htm" : "folder-page-open",
+
+        //pipe 
+        "pipe" : "folder-pipe-open",
+        "pipes" : "folder-pipe-open",
+
+        //private 
+        "private" : "folder-private-open",
+        "lock" : "folder-private-open",
+
+        //server 
+        "server" : "folder-server-open",
+        "servers" : "folder-server-open",
+        "back" : "folder-server-open",
+        "backend" : "folder-server-open",
+
+        //src
+        "src" : "folder-src-open",
+        "source" : "folder-src-open",
+
+        //style 
+        "style" : "folder-style-open",
+        "styles" : "folder-style-open",
+        "css" : "folder-style-open",
+        "stylesheets" : "folder-style-open",
+        "scss" : "folder-style-open",
+        "sass" : "folder-style-open",
+
+        //temp
+        "temp" : "folder-temp-open",
+
+        //test
+        "test" : "folder-test-open",
+        "tests" : "folder-test-open",
+
+        //typescript
+        "typescript" : "folder-typescript-open",
+        "ts" : "folder-typescript-open",
+
+        //vm 
+        "vm" : "folder-vm-open",
+
+        //vscode
+        "vscode" : "folder-vscode-open",
+        ".vscode" : "folder-vscode-open",
+
+        //yarn
+        "yarn" : "folder-yarn-open",
+        ".yarn" : "folder-yarn-open",
+    },
 
     "iconDefinitions": {
 
@@ -751,8 +1341,20 @@
         "asm" : {
             "iconPath": "../../assets/icons/ASM.svg"
         },
+        "bash" : {
+            "iconPath": "../../assets/icons/Bash.svg"
+        },
+        "batch" : {
+            "iconPath": "../../assets/icons/Batch.svg"
+        },
+        "binaries" : {
+            "iconPath": "../../assets/icons/Binaries.svg"
+        },
         "c" : {
             "iconPath": "../../assets/icons/C.svg"
+        },
+        "cmake" : {
+            "iconPath": "../../assets/icons/CMake.svg"
         },
         "cargo" : {
             "iconPath": "../../assets/icons/Cargo.svg"
@@ -784,11 +1386,17 @@
         "eslint" : {
             "iconPath": "../../assets/icons/Eslint.svg"
         },
+        "fsharp" : {
+            "iconPath": "../../assets/icons/Fsharp.svg"
+        },
         "git" : {
             "iconPath": "../../assets/icons/Git.svg"
         },
         "go" : {
             "iconPath": "../../assets/icons/GO.svg"
+        },
+        "gomod" : {
+            "iconPath": "../../assets/icons/GOMod.svg"
         },
         "gradle" : {
             "iconPath": "../../assets/icons/Gradle.svg"
@@ -841,11 +1449,17 @@
         "matlab" : {
             "iconPath": "../../assets/icons/MatLab.svg"
         },
+        "md" : {
+            "iconPath": "../../assets/icons/Markdown.svg"
+        },
         "maven" : {
             "iconPath": "../../assets/icons/Maven.svg"
         },
         "next" : {
             "iconPath": "../../assets/icons/Next.svg"
+        },
+        "ninja" : {
+            "iconPath": "../../assets/icons/Ninja.svg"
         },
         "node" : {
             "iconPath": "../../assets/icons/Node.svg"
@@ -864,6 +1478,9 @@
         },
         "postcss" : {
             "iconPath": "../../assets/icons/PostCSS.svg"
+        },
+        "powershell" : {
+            "iconPath": "../../assets/icons/Powershell.svg"
         },
         "pyc" : {
             "iconPath": "../../assets/icons/Pyc.svg"
@@ -910,6 +1527,12 @@
         "vim" : {
             "iconPath": "../../assets/icons/Vim.svg"
         },
+        "visualstudio" : {
+            "iconPath": "../../assets/icons/VisualStudio.svg"
+        },
+        "vsc" : {
+            "iconPath": "../../assets/icons/VScode.svg"
+        },
         "vue" : {
             "iconPath": "../../assets/icons/Vue.svg"
         },
@@ -921,6 +1544,394 @@
         },
         "yaml" : {
             "iconPath": "../../assets/icons/YAML.svg"
+        },
+
+
+
+        //FOLDERS 
+        "folder-abstract" : {
+            "iconPath": "../../assets/icons/Folder_ABSTRACT_close.svg"
+        },
+        "folder-abstract-open" : {
+            "iconPath": "../../assets/icons/Folder_ABSTRACT_open.svg"
+        },
+
+        "folder-admin" : {
+            "iconPath": "../../assets/icons/Folder_ADMIN_close.svg"
+        },
+        "folder-admin-open" : {
+            "iconPath": "../../assets/icons/Folder_ADMIN_open.svg"
+        },
+
+        "folder-android" : {
+            "iconPath": "../../assets/icons/Folder_ANDROID_close.svg"
+        },
+        "folder-android-open" : {
+            "iconPath": "../../assets/icons/Folder_ANDROID_open.svg"
+        },
+
+        "folder-angular" : {
+            "iconPath": "../../assets/icons/Folder_ANGULAR_close.svg"
+        },
+        "folder-angular-open" : {
+            "iconPath": "../../assets/icons/Folder_ANGULAR_open.svg"
+        },
+
+        "folder-anim" : {
+            "iconPath": "../../assets/icons/Folder_ANIM_close.svg"
+        },
+        "folder-anim-open" : {
+            "iconPath": "../../assets/icons/Folder_ANIM_open.svg"
+        },
+
+        "folder-api" : {
+            "iconPath": "../../assets/icons/Folder_API_close.svg"
+        },
+        "folder-api-open" : {
+            "iconPath": "../../assets/icons/Folder_API_open.svg"
+        },
+
+        "folder-app" : {
+            "iconPath": "../../assets/icons/Folder_APP_close.svg"
+        },
+        "folder-app-open" : {
+            "iconPath": "../../assets/icons/Folder_APP_open.svg"
+        },
+
+        "folder-archive" : {
+            "iconPath": "../../assets/icons/Folder_ARCHIVE_close.svg"
+        },
+        "folder-archive-open" : {
+            "iconPath": "../../assets/icons/Folder_ARCHIVE_open.svg"
+        },
+
+        "folder-audio" : {
+            "iconPath": "../../assets/icons/Folder_AUDIO_close.svg"
+        },
+        "folder-audio-open" : {
+            "iconPath": "../../assets/icons/Folder_AUDIO_open.svg"
+        },
+
+        "folder-class" : {
+            "iconPath": "../../assets/icons/Folder_CLASS_close.svg"
+        },
+        "folder-class-open" : {
+            "iconPath": "../../assets/icons/Folder_CLASS_open.svg"
+        },
+
+        "folder-client" : {
+            "iconPath": "../../assets/icons/Folder_CLIENT_close.svg"
+        },
+        "folder-client-open" : {
+            "iconPath": "../../assets/icons/Folder_CLIENT_open.svg"
+        },
+
+        "folder-cloud" : {
+            "iconPath": "../../assets/icons/Folder_CLOUD_close.svg"
+        },
+        "folder-cloud-open" : {
+            "iconPath": "../../assets/icons/Folder_CLOUD_open.svg"
+        },
+
+        "folder-cluster" : {
+            "iconPath": "../../assets/icons/Folder_CLUSTER_close.svg"
+        },
+        "folder-cluster-open" : {
+            "iconPath": "../../assets/icons/Folder_CLUSTER_open.svg"
+        },
+
+        "folder-command" : {
+            "iconPath": "../../assets/icons/Folder_COMMAND_close.svg"
+        },
+        "folder-command-open" : {
+            "iconPath": "../../assets/icons/Folder_COMMAND_open.svg"
+        },
+
+        "folder-component" : {
+            "iconPath": "../../assets/icons/Folder_COMPONENTS_close.svg"
+        },
+        "folder-component-open" : {
+            "iconPath": "../../assets/icons/Folder_COMPONENTS_open.svg"
+        },
+
+        "folder-config" : {
+            "iconPath": "../../assets/icons/Folder_CONFIG_close.svg"
+        },
+        "folder-config-open" : {
+            "iconPath": "../../assets/icons/Folder_CONFIG_open.svg"
+        },
+
+        "folder-contract" : {
+            "iconPath": "../../assets/icons/Folder_CONTRACT_close.svg"
+        },
+        "folder-contract-open" : {
+            "iconPath": "../../assets/icons/Folder_CONTRACT_open.svg"
+        },
+
+        "folder-core" : {
+            "iconPath": "../../assets/icons/Folder_CORE_close.svg"
+        },
+        "folder-core-open" : {
+            "iconPath": "../../assets/icons/Folder_CORE_open.svg"
+        },
+
+        "folder-database" : {
+            "iconPath": "../../assets/icons/Folder_DATABASE_close.svg"
+        },
+        "folder-database-open" : {
+            "iconPath": "../../assets/icons/Folder_DATABASE_open.svg"
+        },
+
+        "folder-dist" : {
+            "iconPath": "../../assets/icons/Folder_DIST_close.svg"
+        },
+        "folder-dist-open" : {
+            "iconPath": "../../assets/icons/Folder_DIST_open.svg"
+        },
+
+        "folder-docker" : {
+            "iconPath": "../../assets/icons/Folder_DOCKER_close.svg"
+        },
+        "folder-docker-open" : {
+            "iconPath": "../../assets/icons/Folder_DOCKER_open.svg"
+        },
+
+        "folder-docs" : {
+            "iconPath": "../../assets/icons/Folder_DOCS_close.svg"
+        },
+        "folder-docs-open" : {
+            "iconPath": "../../assets/icons/Folder_DOCS_open.svg"
+        },
+
+        "folder-download" : {
+            "iconPath": "../../assets/icons/Folder_DOWNLOAD_close.svg"
+        },
+        "folder-download-open" : {
+            "iconPath": "../../assets/icons/Folder_DOWNLOAD_open.svg"
+        },
+
+        "folder-error" : {
+            "iconPath": "../../assets/icons/Folder_ERROR_close.svg"
+        },
+        "folder-error-open" : {
+            "iconPath": "../../assets/icons/Folder_ERROR_open.svg"
+        },
+
+        "folder-event" : {
+            "iconPath": "../../assets/icons/Folder_EVENT_close.svg"
+        },
+        "folder-event-open" : {
+            "iconPath": "../../assets/icons/Folder_EVENT_open.svg"
+        },
+
+        "folder-font" : {
+            "iconPath": "../../assets/icons/Folder_FONT_close.svg"
+        },
+        "folder-font-open" : {
+            "iconPath": "../../assets/icons/Folder_FONT_open.svg"
+        },
+
+        "folder-git" : {
+            "iconPath": "../../assets/icons/Folder_GIT_close.svg"
+        },
+        "folder-git-open" : {
+            "iconPath": "../../assets/icons/Folder_GIT_open.svg"
+        },
+
+        "folder-gradle" : {
+            "iconPath": "../../assets/icons/Folder_GRADLE_close.svg"
+        },
+        "folder-gradle-open" : {
+            "iconPath": "../../assets/icons/Folder_GRADLE_open.svg"
+        },
+
+        "folder-home" : {
+            "iconPath": "../../assets/icons/Folder_HOME_close.svg"
+        },
+        "folder-home-open" : {
+            "iconPath": "../../assets/icons/Folder_HOME_open.svg"
+        },
+
+        "folder-image" : {
+            "iconPath": "../../assets/icons/Folder_IMAGES_close.svg"
+        },
+        "folder-image-open" : {
+            "iconPath": "../../assets/icons/Folder_IMAGES_open.svg"
+        },
+
+        "folder-in" : {
+            "iconPath": "../../assets/icons/Folder_IN_close.svg"
+        },
+        "folder-in-open" : {
+            "iconPath": "../../assets/icons/Folder_IN_open.svg"
+        },
+
+        "folder-interface" : {
+            "iconPath": "../../assets/icons/Folder_INTERFACE_close.svg"
+        },
+        "folder-interface-open" : {
+            "iconPath": "../../assets/icons/Folder_INTERFACE_open.svg"
+        },
+
+        "folder-ios" : {
+            "iconPath": "../../assets/icons/Folder_IOS_close.svg"
+        },
+        "folder-ios-open" : {
+            "iconPath": "../../assets/icons/Folder_IOS_open.svg"
+        },
+
+        "folder-java" : {
+            "iconPath": "../../assets/icons/Folder_JAVA_close.svg"
+        },
+        "folder-java-open" : {
+            "iconPath": "../../assets/icons/Folder_JAVA_open.svg"
+        },
+
+        "folder-javascript" : {
+            "iconPath": "../../assets/icons/Folder_JAVASCRIPT_close.svg"
+        },
+        "folder-javascript-open" : {
+            "iconPath": "../../assets/icons/Folder_JAVASCRIPT_open.svg"
+        },
+
+        "folder-keys" : {
+            "iconPath": "../../assets/icons/Folder_KEYS_close.svg"
+        },
+        "folder-keys-open" : {
+            "iconPath": "../../assets/icons/Folder_KEYS_open.svg"
+        },
+
+        "folder-layout" : {
+            "iconPath": "../../assets/icons/Folder_LAYOUT_close.svg"
+        },
+        "folder-layout-open" : {
+            "iconPath": "../../assets/icons/Folder_LAYOUT_open.svg"
+        },
+
+        "folder-lib" : {
+            "iconPath": "../../assets/icons/Folder_LIBS_close.svg"
+        },
+        "folder-lib-open" : {
+            "iconPath": "../../assets/icons/Folder_LIBS_open.svg"
+        },
+
+        "folder-log" : {
+            "iconPath": "../../assets/icons/Folder_LOGS_close.svg"
+        },
+        "folder-log-open" : {
+            "iconPath": "../../assets/icons/Folder_LOGS_open.svg"
+        },
+
+        "folder-middleware" : {
+            "iconPath": "../../assets/icons/Folder_MIDDLEWARE_close.svg"
+        },
+        "folder-middleware-open" : {
+            "iconPath": "../../assets/icons/Folder_MIDDLEWARE_open.svg"
+        },
+
+        "folder-network" : {
+            "iconPath": "../../assets/icons/Folder_NETWORK_close.svg"
+        },
+        "folder-network-open" : {
+            "iconPath": "../../assets/icons/Folder_NETWORK_open.svg"
+        },
+
+        "folder-node" : {
+            "iconPath": "../../assets/icons/Folder_NODE_close.svg"
+        },
+        "folder-node-open" : {
+            "iconPath": "../../assets/icons/Folder_NODE_open.svg"
+        },
+
+        "folder-package" : {
+            "iconPath": "../../assets/icons/Folder_PACKAGE_close.svg"
+        },
+        "folder-package-open" : {
+            "iconPath": "../../assets/icons/Folder_PACKAGE_open.svg"
+        },
+
+        "folder-page" : {
+            "iconPath": "../../assets/icons/Folder_PAGE_close.svg"
+        },
+        "folder-page-open" : {
+            "iconPath": "../../assets/icons/Folder_PAGE_open.svg"
+        },
+
+        "folder-pipe" : {
+            "iconPath": "../../assets/icons/Folder_PIPE_close.svg"
+        },
+        "folder-pipe-open" : {
+            "iconPath": "../../assets/icons/Folder_PIPE_open.svg"
+        },
+
+        "folder-private" : {
+            "iconPath": "../../assets/icons/Folder_PRIVATE_close.svg"
+        },
+        "folder-private-open" : {
+            "iconPath": "../../assets/icons/Folder_PRIVATE_open.svg"
+        },
+
+        "folder-server" : {
+            "iconPath": "../../assets/icons/Folder_SERVER_close.svg"
+        },
+        "folder-server-open" : {
+            "iconPath": "../../assets/icons/Folder_SERVER_open.svg"
+        },
+
+        "folder-src" : {
+            "iconPath": "../../assets/icons/Folder_SRC_close.svg"
+        },
+        "folder-src-open" : {
+            "iconPath": "../../assets/icons/Folder_SRC_open.svg"
+        },
+
+        "folder-style" : {
+            "iconPath": "../../assets/icons/Folder_STYLE_close.svg"
+        },
+        "folder-style-open" : {
+            "iconPath": "../../assets/icons/Folder_STYLE_open.svg"
+        },
+
+        "folder-temp" : {
+            "iconPath": "../../assets/icons/Folder_TEMP_close.svg"
+        },
+        "folder-temp-open" : {
+            "iconPath": "../../assets/icons/Folder_TEMP_open.svg"
+        },
+
+        "folder-test" : {
+            "iconPath": "../../assets/icons/Folder_TEST_close.svg"
+        },
+        "folder-test-open" : {
+            "iconPath": "../../assets/icons/Folder_TEST_open.svg"
+        },
+
+        "folder-typescript" : {
+            "iconPath": "../../assets/icons/Folder_TYPESCRIPT_close.svg"
+        },
+        "folder-typescript-open" : {
+            "iconPath": "../../assets/icons/Folder_TYPESCRIPT_open.svg"
+        },
+
+        "folder-vm" : {
+            "iconPath": "../../assets/icons/Folder_VM_close.svg"
+        },
+        "folder-vm-open" : {
+            "iconPath": "../../assets/icons/Folder_VM_open.svg"
+        },
+
+        "folder-vscode" : {
+            "iconPath": "../../assets/icons/Folder_VSCODE_close.svg"
+        },
+        "folder-vscode-open" : {
+            "iconPath": "../../assets/icons/Folder_VSCODE_open.svg"
+        },
+
+        "folder-yarn" : {
+            "iconPath": "../../assets/icons/Folder_YARN_close.svg"
+        },
+        "folder-yarn-open" : {
+            "iconPath": "../../assets/icons/Folder_YARN_open.svg"
         }
     }
 }

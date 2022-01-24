@@ -379,6 +379,12 @@
         //vue
         "vue": "vue",
 
+        //vsc
+        "vscodeignore": "vsc",
+        "vsixmanifest": "vsc",
+        "vsix": "vsc",
+        "code-workplace": "vsc",
+
         //wasm 
         "wat": "wasm",
         "wasm": "wasm",
@@ -583,6 +589,11 @@
         //cargo 
         "cargo.toml" : "cargo",
 
+        //changelog 
+        "changelog" : "changelog",
+        "changelog.md" : "changelog",
+        "changelog.txt" : "changelog",
+
         //cmake 
         "cmakelists.txt": "cmake",
         "cmakecache.txt": "cmake",
@@ -722,6 +733,11 @@
         "cdp.pid": "json",
         ".lintstagedrc": "json",
 
+        //license 
+        "license" : "license",
+        "license.md" : "license",
+        "license.txt" : "license",
+
         //lua
         ".luacheckrc": "lua",
 
@@ -759,6 +775,11 @@
         "manifest.in": "pyc",
         "pylintrc": "pyc",
         ".pylintrc": "pyc",
+
+        //readme 
+        "readme" : "readme",
+        "readme.md" : "readme",
+        "readme.txt" : "readme",
 
         //tailwind 
         "tailwind.js": "tailwind",
@@ -868,6 +889,8 @@
         "data" : "folder-database",
         "datas" : "folder-database",
         "sql" : "folder-database",
+        "model" : "folder-database",
+        "models" : "folder-database",
 
         //dist
         "dist" : "folder-dist",
@@ -918,6 +941,7 @@
         "imgs" : "folder-image",
         "assets" : "folder-image",
         "icon" : "folder-image",
+        "icons" : "folder-image",
 
         //in 
         "in" : "folder-in",
@@ -1008,6 +1032,8 @@
         //src
         "src" : "folder-src",
         "source" : "folder-src",
+        "controller" : "folder-src",
+        "controllers" : "folder-src",
 
         //style 
         "style" : "folder-style",
@@ -1127,6 +1153,8 @@
         "data" : "folder-database-open",
         "datas" : "folder-database-open",
         "sql" : "folder-database-open",
+        "model" : "folder-database-open",
+        "models" : "folder-database-open",
 
         //dist
         "dist" : "folder-dist-open",
@@ -1177,6 +1205,7 @@
         "imgs" : "folder-image-open",
         "assets" : "folder-image-open",
         "icon" : "folder-image-open",
+        "icons" : "folder-image-open",
 
         //in 
         "in" : "folder-in-open",
@@ -1267,6 +1296,8 @@
         //src
         "src" : "folder-src-open",
         "source" : "folder-src-open",
+        "controller" : "folder-src-open",
+        "controllers" : "folder-src-open",
 
         //style 
         "style" : "folder-style-open",
@@ -1353,17 +1384,20 @@
         "c" : {
             "iconPath": "../../assets/icons/C.svg"
         },
-        "cmake" : {
-            "iconPath": "../../assets/icons/CMake.svg"
-        },
         "cargo" : {
             "iconPath": "../../assets/icons/Cargo.svg"
+        },
+        "changelog" : {
+            "iconPath": "../../assets/icons/CHANGELOG.svg"
         },
         "cobol" : {
             "iconPath": "../../assets/icons/Cobol.svg"
         },
         "cpp" : {
             "iconPath": "../../assets/icons/Cpp.svg"
+        },
+        "cmake" : {
+            "iconPath": "../../assets/icons/CMake.svg"
         },
         "csharp" : {
             "iconPath": "../../assets/icons/Csharp.svg" 
@@ -1443,6 +1477,9 @@
         "kotlin" : {
             "iconPath": "../../assets/icons/Kotlin.svg"
         },
+        "license" : {
+            "iconPath": "../../assets/icons/LICENSE.svg"
+        },
         "lua" : {
             "iconPath": "../../assets/icons/Lua.svg"
         },
@@ -1493,6 +1530,9 @@
         },
         "react" : {
             "iconPath": "../../assets/icons/React.svg"
+        },
+        "readme" : {
+            "iconPath": "../../assets/icons/README.svg"
         },
         "ruby" : {
             "iconPath": "../../assets/icons/Ruby.svg"

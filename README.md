@@ -9,9 +9,10 @@
 
 # Changelog
 
-+ added icon for shell, batch, exe, dll, cmake, fsharp, go modules, markdown, ninja, powershell, visualstudio and visualstudiocode
-+ added all the closed folder icons
-+ added all the expanded folder icons
++ added Readme icon
++ added License icon
++ added Changelog icon
++ added folder compatibility to MVC structure
 
 # Suggest
 
@@ -22,7 +23,7 @@ You can also make a pull request to add your projects/prefered langages to the t
 
 # Planned features
 
-We plane to add Clojure specific icons and icons for liscense, changelog dans readme file.
+We plane to add Clojure specific icon
 Consider suggesting icons [here](#Suggest)
 
 

@@ -4,15 +4,22 @@
 <p align="center"><img src="https://raw.githubusercontent.com/Comdec35000/Simple-Icons/master/LOGO.png" alt="logo"></p>
 
 # Introduction
-**Simple icons** is a simple icon theme for visual studio code. The theme is currently in BETA, so we're openned to suggestions.
+**Simple icons** is a simple icon theme for visual studio code. The theme is currently in BETA, so we're openned to suggestions.  
+
+Thank you for the 1k downloads !
 
 
 # Changelog
 
-+ added Readme icon
-+ added License icon
-+ added Changelog icon
-+ added folder compatibility to MVC structure
+```diff
++ fixed node_modules folder has the wrong icon
++ added microsoft suite icons
++ added adobe suite icons
++ added Closure icon
++ added Solidity icon
++ added Minecraft-related icons
++ added Terrabyte Script icon
+```
 
 # Suggest
 

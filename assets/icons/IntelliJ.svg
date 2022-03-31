@@ -1,0 +1,12 @@
+<svg width="262" height="262" viewBox="0 0 262 262" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M4 4H258V258" stroke="#2EB4FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 4V258H258" stroke="#B339EC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M4 4H131" stroke="#FFA800" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="37" y="37" width="190" height="190" fill="#524E5A"/>
+<path d="M34.8428 34.8428H227.157V227.157" stroke="#2EB4FF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.8428 34.8428V227.157H227.157" stroke="#B339EC" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M34.8428 34.8428H131" stroke="#FFA800" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M79.1958 61.3047V126H66.9766V61.3047H79.1958Z" fill="#D6E0E3"/>
+<path d="M137.896 106.36V61.3047H150.115V106.36C150.115 110.656 149.182 114.344 147.316 117.424C145.45 120.475 142.902 122.816 139.673 124.445C136.445 126.074 132.801 126.889 128.743 126.889C124.566 126.889 120.863 126.193 117.634 124.8C114.406 123.378 111.873 121.216 110.036 118.313C108.229 115.41 107.326 111.722 107.326 107.249H119.589C119.589 109.678 119.96 111.633 120.7 113.114C121.441 114.595 122.492 115.662 123.855 116.313C125.247 116.965 126.877 117.291 128.743 117.291C130.55 117.291 132.135 116.876 133.497 116.047C134.889 115.188 135.971 113.944 136.741 112.314C137.511 110.685 137.896 108.701 137.896 106.36Z" fill="#D6E0E3"/>
+<path d="M100.524 189V198.064H60.0449V189H100.524Z" fill="#D6E0E3"/>
+</svg>

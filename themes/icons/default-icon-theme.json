@@ -29,7 +29,7 @@
         "aiff": "audio",
         "wav": "audio",
 
-        //font 
+        //font
         "woff": "font",
         "woff2": "font",
         "ttf": "font",
@@ -54,7 +54,6 @@
         "ico": "image",
         "tif": "image",
         "tiff": "image",
-        "psd": "image",
         "psb": "image",
         "ami": "image",
         "apx": "image",
@@ -103,6 +102,98 @@
 
 
 
+        // ADOBE
+
+        //adobe bridge
+        "adobebridge" : "adobe-bridge",
+        "bc" : "adobe-bridge",
+        "bcm" : "adobe-bridge",
+        "bct" : "adobe-bridge",
+
+        //adobe-aftereffects
+        "aep" : "adobe-after-effects",
+        "ae" : "adobe-after-effects",
+
+        //adobe-audition
+        "sesx" : "adobe-audition",
+
+        //adobe-dreamweather
+        "dwt" : "adobe-dreamweather",
+
+        //adobe-illustrator
+        "ai" : "adobe-illustrator",
+
+        //adobe-incopy
+        "inc" : "adobe-incopy",
+        "icap" : "adobe-incopy",
+        "icma" : "adobe-incopy",
+        "icml" : "adobe-incopy",
+        "inca" : "adobe-incopy",
+        "incx" : "adobe-incopy",
+
+        //adobe-indesign
+        "idap" : "adobe-indesign",
+        "ind" : "adobe-indesign",
+        "indb" : "adobe-indesign",
+        "indd" : "adobe-indesign",
+        "indl" : "adobe-indesign",
+        "indt" : "adobe-indesign",
+        "idml" : "adobe-indesign",
+        "inx" : "adobe-indesign",
+
+        //adobe-lightroom
+        "lr" : "adobe-lightroom",
+
+        //adobe-photoshop
+        "psd" : "adobe-photoshop",
+
+        //adobe-premierepro
+        "pproj" : "adobe-premiere-pro",
+        "ppr" : "adobe-premiere-pro",
+
+
+        // MICROSOFT
+
+        //ms-docx
+        "doc" : "ms-docx",
+        "docm" : "ms-docx",
+        "docx" : "ms-docx",
+        "dot" : "ms-docx",
+        "dotm" : "ms-docx",
+        "dotx" : "ms-docx",
+        "odt" : "ms-docx",
+
+        //ms-note
+        "one" : "ms-note",
+
+        //ms-pptx
+        "pot" : "ms-pptx",
+        "potm" : "ms-pptx",
+        "potx" : "ms-pptx",
+        "ppa" : "ms-pptx",
+        "ppam" : "ms-pptx",
+        "pps" : "ms-pptx",
+        "ppsm" : "ms-pptx",
+        "ppsx" : "ms-pptx",
+        "ppt" : "ms-pptx",
+        "pptm" : "ms-pptx",
+        "pptx" : "ms-pptx",
+
+        //ms-xlsx
+        "csv" : "ms-xlsx",
+        "ods" : "ms-xlsx",
+        "xla" : "ms-xlsx",
+        "xlam" : "ms-xlsx",
+        "xls" : "ms-xlsx",
+        "xlsb" : "ms-xlsx",
+        "xlsm" : "ms-xlsx",
+        "xlsx" : "ms-xlsx",
+        "xlt" : "ms-xlsx",
+        "xltm" : "ms-xlsx",
+        "xltx" : "ms-xlsx",
+        "xlw" : "ms-xlsx",
+
+        
         // FILES
 
         //agda
@@ -137,7 +228,6 @@
         //assembly
         "asm": "asm",
         "a51": "asm",
-        "inc": "asm",
         "nasm": "asm",
         "s": "asm",
         "ms": "asm",
@@ -156,14 +246,19 @@
         //c
         "c" : "c",
 
-        //cmake 
+        //clojure
+        "clj" : "clojure",
+        "cljs" : "clojure",
+        "cljc" : "clojure",
+
+        //cmake
         "cmake": "cmake",
 
         //cobol
         "cob": "cobol",
         "cbl": "cobol",
 
-        //cpp 
+        //cpp
         "cc": "cpp",
         "cpp": "cpp",
         "cxx": "cpp",
@@ -178,14 +273,14 @@
         "css": "css",
         "css.map": "css",
 
-        //dart 
+        //dart
         "dart": "dart",
 
         //docker
         "dockerignore": "docker",
         "dockerfile": "docker",
 
-        //env 
+        //env
         "env": "env",
 
         //fsharp
@@ -203,14 +298,14 @@
         //gradle
         "gradle": "gradle",
 
-        //graphql 
+        //graphql
         "graphql": "graphql",
         "gql": "graphql",
 
         //h
         "h" : "h",
 
-        //haskell 
+        //haskell
         "hs": "haskell",
 
         //haxe
@@ -249,13 +344,18 @@
         //javaclass
         "class": "javaclass",
 
-        //javascript 
+        //javascript
         "js" : "javascript",
         "esx": "javascript",
         "mjs": "javascript",
         "js.map": "javascript-map",
         "mjs.map": "javascript-map",
         "cjs.map": "javascript-map",
+
+        //jetbrains
+        "iml" : "jetbrains",
+        "ipr" : "jetbrains",
+        "iws" : "jetbrains",
 
         //json
         "json": "json",
@@ -264,29 +364,35 @@
         "jsonl": "json",
         "ndjson": "json",
 
-        //kotlin 
+        //kotlin
         "kt": "kotlin",
         "kts": "kotlin",
 
         //lua
         "lua": "lua",
+        
+        //matlab
+        "mat": "matlab",
+
+        //minecraft
+        "mcfunction" : "minecraft",
+
+        //minecraft-meta
+        "mcmeta" : "minecraft-meta",
 
         //md
         "md": "md",
         "markdown": "md",
         "rst": "md",
 
-        //matlab 
-        "mat": "matlab",
-
-        //ninja 
+        //ninja
         "ninja" : "ninja",
 
-        //objc 
+        //objc
         "m" : "objc",
         "mm" : "objc",
 
-        //perl 
+        //perl
         "pl" : "perl",
         "pm": "perl",
         "raku": "perl",
@@ -294,7 +400,7 @@
         //php
         "php": "php",
 
-        //postcss 
+        //postcss
         "pcss": "postcss",
         "sss": "postcss",
 
@@ -324,14 +430,17 @@
         "rb": "ruby",
         "erb": "ruby",
 
-        //rust 
+        //rust
         "rs": "rust",
 
         //sass
         "scss": "sass",
         "sass": "sass",
 
-        //sql 
+        //solidity
+        "sol" : "solidity",
+
+        //sql
         "sql": "sql",
         "sqlite": "sql",
         "sqlite3": "sql",
@@ -344,21 +453,24 @@
         //swift
         "swift": "swift",
 
+        //terrabyte
+        "tbs": "terrabyte",
+
         //text
         "plaintext": "document",
 
-        //typescript 
+        //typescript
         "d.ts": "typescript",
         "ts": "typescript",
 
-        //vim 
+        //vim
         "vimrc": "vim",
         "gvimrc": "vim",
         "exrc": "vim",
         "vim": "vim",
         "viminfo": "vim",
 
-        //toml 
+        //toml
         "toml": "toml",
 
         //vbs
@@ -366,7 +478,7 @@
         "vba": "vba",
         "vbs": "vba",
 
-        //visualstudio 
+        //visualstudio
         "csproj": "visualstudio",
         "ruleset": "visualstudio",
         "sln": "visualstudio",
@@ -385,11 +497,11 @@
         "vsix": "vsc",
         "code-workplace": "vsc",
 
-        //wasm 
+        //wasm
         "wat": "wasm",
         "wasm": "wasm",
 
-        //xml 
+        //xml
         "xml": "xml",
         "plist": "xml",
         "xsd": "xml",
@@ -397,7 +509,6 @@
         "xsl": "xml",
         "xslt": "xml",
         "resx": "xml",
-        "iml": "xml",
         "xquery": "xml",
         "tmLanguage": "xml",
         "manifest": "xml",
@@ -431,6 +542,9 @@
         //c
         "c": "c",
 
+        //clojure
+        "clojure": "clojure",
+
         //cpp
         "cpp": "cpp",
 
@@ -440,7 +554,7 @@
         //css
         "css": "css",
 
-        //dart 
+        //dart
         "dart": "dart",
 
         //docker
@@ -461,7 +575,7 @@
         //go
         "go": "go",
 
-        //graphql 
+        //graphql
         "graphql": "graphql",
 
         //haskell
@@ -480,10 +594,10 @@
         //java
         "java": "java",
 
-        //javascript 
+        //javascript
         "javascript" : "javascript",
 
-        //json 
+        //json
         "json": "json",
         "jsonc": "json",
         "json5": "json",
@@ -496,7 +610,7 @@
 
         //matlab
         "matlab": "matlab",
-        
+
         //objc
         "objective-c": "objc",
         "objective-cpp": "objc",
@@ -511,7 +625,7 @@
         //postcss
         "postcss": "postcss",
 
-        //powershell 
+        //powershell
         "powershell": "powershell",
 
         //pyc
@@ -527,17 +641,17 @@
         //ruby
         "ruby": "ruby",
 
-        //rust 
+        //rust
         "rust": "rust",
 
         //sass
         "sass": "sass",
         "scss": "sass",
 
-        //sql 
+        //sql
         "sql": "sql",
 
-        //svg 
+        //svg
         "svg": "svg",
 
         //swift
@@ -546,7 +660,7 @@
         //typescript
         "typescript": "typescript",
 
-        //toml 
+        //toml
         "toml": "toml",
 
         //vbs
@@ -569,12 +683,12 @@
         "vue-postcss": "vue",
         "vue-html": "vue",
 
-        //xml 
+        //xml
         "xml": "xml",
         "xquery": "xml",
         "xsl": "xml",
 
-        //yaml 
+        //yaml
         "yaml": "yaml",
 
     },
@@ -586,15 +700,15 @@
         ".angular-cli.json": "angular",
         "angular.json": "angular",
 
-        //cargo 
+        //cargo
         "cargo.toml" : "cargo",
 
-        //changelog 
+        //changelog
         "changelog" : "changelog",
         "changelog.md" : "changelog",
         "changelog.txt" : "changelog",
 
-        //cmake 
+        //cmake
         "cmakelists.txt": "cmake",
         "cmakecache.txt": "cmake",
 
@@ -650,7 +764,7 @@
         "docker-compose.web.yaml": "docker",
         "docker-compose.worker.yaml": "docker",
 
-        //editor-config 
+        //editor-config
         ".editorconfig": "editor-config",
 
         //env
@@ -724,6 +838,10 @@
         "graphql.config.yaml": "graphql",
         "graphql.config.yml": "graphql",
 
+        //jetbrains
+        "modules.xml" : "jetbrains",
+        "workspace.xml" : "jetbrains",
+
         //json
         ".jscsrc": "json",
         ".jshintrc": "json",
@@ -733,7 +851,7 @@
         "cdp.pid": "json",
         ".lintstagedrc": "json",
 
-        //license 
+        //license
         "license" : "license",
         "license.md" : "license",
         "license.txt" : "license",
@@ -744,6 +862,9 @@
         //maven
         "maven.config": "maven",
         "jvm.config": "maven",
+
+        //minecraft-pack
+        "pack.mcmeta" : "minecraft-pack",
 
         //next
         "next.config.js": "next",
@@ -776,12 +897,12 @@
         "pylintrc": "pyc",
         ".pylintrc": "pyc",
 
-        //readme 
+        //readme
         "readme" : "readme",
         "readme.md" : "readme",
         "readme.txt" : "readme",
 
-        //tailwind 
+        //tailwind
         "tailwind.js": "tailwind",
         "tailwind.ts": "tailwind",
         "tailwind.config.js": "tailwind",
@@ -797,8 +918,11 @@
         "vetur.config.js": "vue",
         "vetur.config.ts": "vue",
 
-        //xml 
+        //xml
         ".htaccess": "xml",
+
+        //award
+        "_THANK YOU 1K": "award-1k",
 
     },
 
@@ -816,7 +940,7 @@
         "ng" : "folder-angular",
         "angular" : "folder-angular",
 
-        //anim 
+        //anim
         "anim" : "folder-anim",
         "anims" : "folder-anim",
         "animation" : "folder-anim",
@@ -824,14 +948,14 @@
         "gif" : "folder-anim",
         "gifs" : "folder-anim",
 
-        //api 
+        //api
         "api" : "folder-api",
 
-        //app 
+        //app
         "app" : "folder-app",
         "apps" : "folder-app",
 
-        //audio 
+        //audio
         "audio" : "folder-audio",
         "audios" : "folder-audio",
         "sound" : "folder-audio",
@@ -839,11 +963,11 @@
         "music" : "folder-audio",
         "musics" : "folder-audio",
 
-        //class 
+        //class
         "class" : "folder-class",
         "classes" : "folder-class",
 
-        //client 
+        //client
         "client" : "folder-client",
         "clients" : "folder-client",
         "front" : "folder-client",
@@ -859,7 +983,7 @@
         "cluster" : "folder-cluster",
         "clusters" : "folder-cluster",
 
-        //command 
+        //command
         "command" : "folder-command",
         "commands" : "folder-command",
         "bin" : "folder-command",
@@ -869,13 +993,13 @@
         "component" : "folder-component",
         "components" : "folder-component",
 
-        //config 
+        //config
         "config" : "folder-config",
         "configs" : "folder-config",
         "cfg" : "folder-config",
         "cfgs" : "folder-config",
 
-        //contract 
+        //contract
         "contract" : "folder-contract",
         "contracts" : "folder-contract",
 
@@ -883,7 +1007,7 @@
         "core" : "folder-core",
         "cores" : "folder-core",
 
-        //database 
+        //database
         "database" : "folder-database",
         "databases" : "folder-database",
         "data" : "folder-database",
@@ -893,10 +1017,12 @@
         "models" : "folder-database",
 
         //dist
+        "build" : "folder-dist",
         "dist" : "folder-dist",
         "out" : "folder-dist",
+        "release" : "folder-dist",
 
-        //docker 
+        //docker
         "docker" : "folder-docker",
 
         //docs
@@ -906,11 +1032,11 @@
         "documentation" : "folder-docs",
         "documentations" : "folder-docs",
 
-        //download 
+        //download
         "download" : "folder-download",
         "downloads" : "folder-download",
 
-        //error 
+        //error
         "error" : "folder-error",
         "errors" : "folder-error",
 
@@ -918,7 +1044,7 @@
         "event" : "folder-event",
         "events" : "folder-event",
 
-        //font 
+        //font
         "font" : "folder-font",
         "fonts" : "folder-font",
 
@@ -930,7 +1056,7 @@
         "gradle" : "folder-gradle",
         ".gradle" : "folder-gradle",
 
-        //home 
+        //home
         "home" : "folder-home",
         "homes" : "folder-home",
 
@@ -943,7 +1069,7 @@
         "icon" : "folder-image",
         "icons" : "folder-image",
 
-        //in 
+        //in
         "in" : "folder-in",
         "input" : "folder-in",
 
@@ -951,7 +1077,7 @@
         "interface" : "folder-interface",
         "interfaces" : "folder-interface",
 
-        //ios 
+        //ios
         "ios" : "folder-ios",
         "apple" : "folder-ios",
         "mac" : "folder-ios",
@@ -965,18 +1091,21 @@
         "js" : "folder-javascript",
         "script" : "folder-javascript",
 
-        //keys 
+        //keys
         "keys" : "folder-keys",
         "key" : "folder-keys",
 
-        //layout 
+        //layout
         "layout" : "folder-layout",
         "ui" : "folder-layout",
 
         //lib
         "lib" : "folder-lib",
         "libs" : "folder-lib",
+        "librarie" : "folder-lib",
         "libraries" : "folder-lib",
+        "ressource" : "folder-lib",
+        "ressources" : "folder-lib",
 
         //log
         "log" : "folder-log",
@@ -987,7 +1116,7 @@
         "middleware" : "folder-middleware",
         "middlewares" : "folder-middleware",
 
-        //network 
+        //network
         "network" : "folder-network",
         "networks" : "folder-network",
         "packet" : "folder-network",
@@ -995,11 +1124,11 @@
         "route" : "folder-network",
         "routes" : "folder-network",
 
-        //node 
+        //node
         "node" : "folder-node",
-        "node-modules" : "folder-node",
+        "node_modules" : "folder-node",
         ".node" : "folder-node",
-        ".node-modules" : "folder-node",
+        ".node_modules" : "folder-node",
 
         //package
         "package" : "folder-package",
@@ -1007,7 +1136,7 @@
         "pkg" : "folder-package",
         "pkgs" : "folder-package",
 
-        //page 
+        //page
         "page" : "folder-page",
         "pages" : "folder-page",
         "view" : "folder-page",
@@ -1015,15 +1144,15 @@
         "html" : "folder-page",
         "htm" : "folder-page",
 
-        //pipe 
+        //pipe
         "pipe" : "folder-pipe",
         "pipes" : "folder-pipe",
 
-        //private 
+        //private
         "private" : "folder-private",
         "lock" : "folder-private",
 
-        //server 
+        //server
         "server" : "folder-server",
         "servers" : "folder-server",
         "back" : "folder-server",
@@ -1035,7 +1164,7 @@
         "controller" : "folder-src",
         "controllers" : "folder-src",
 
-        //style 
+        //style
         "style" : "folder-style",
         "styles" : "folder-style",
         "css" : "folder-style",
@@ -1054,7 +1183,7 @@
         "typescript" : "folder-typescript",
         "ts" : "folder-typescript",
 
-        //vm 
+        //vm
         "vm" : "folder-vm",
 
         //vscode
@@ -1080,7 +1209,7 @@
         "ng" : "folder-angular-open",
         "angular" : "folder-angular-open",
 
-        //anim 
+        //anim
         "anim" : "folder-anim-open",
         "anims" : "folder-anim-open",
         "animation" : "folder-anim-open",
@@ -1088,14 +1217,14 @@
         "gif" : "folder-anim-open",
         "gifs" : "folder-anim-open",
 
-        //api 
+        //api
         "api" : "folder-api-open",
 
-        //app 
+        //app
         "app" : "folder-app-open",
         "apps" : "folder-app-open",
 
-        //audio 
+        //audio
         "audio" : "folder-audio-open",
         "audios" : "folder-audio-open",
         "sound" : "folder-audio-open",
@@ -1103,11 +1232,11 @@
         "music" : "folder-audio-open",
         "musics" : "folder-audio-open",
 
-        //class 
+        //class
         "class" : "folder-class-open",
         "classes" : "folder-class-open",
 
-        //client 
+        //client
         "client" : "folder-client-open",
         "clients" : "folder-client-open",
         "front" : "folder-client-open",
@@ -1123,7 +1252,7 @@
         "cluster" : "folder-cluster-open",
         "clusters" : "folder-cluster-open",
 
-        //command 
+        //command
         "command" : "folder-command-open",
         "commands" : "folder-command-open",
         "bin" : "folder-command-open",
@@ -1133,13 +1262,13 @@
         "component" : "folder-component-open",
         "components" : "folder-component-open",
 
-        //config 
+        //config
         "config" : "folder-config-open",
         "configs" : "folder-config-open",
         "cfg" : "folder-config-open",
         "cfgs" : "folder-config-open",
 
-        //contract 
+        //contract
         "contract" : "folder-contract-open",
         "contracts" : "folder-contract-open",
 
@@ -1147,7 +1276,7 @@
         "core" : "folder-core-open",
         "cores" : "folder-core-open",
 
-        //database 
+        //database
         "database" : "folder-database-open",
         "databases" : "folder-database-open",
         "data" : "folder-database-open",
@@ -1160,7 +1289,7 @@
         "dist" : "folder-dist-open",
         "out" : "folder-dist-open",
 
-        //docker 
+        //docker
         "docker" : "folder-docker-open",
 
         //docs
@@ -1170,11 +1299,11 @@
         "documentation" : "folder-docs-open",
         "documentations" : "folder-docs-open",
 
-        //download 
+        //download
         "download" : "folder-download-open",
         "downloads" : "folder-download-open",
 
-        //error 
+        //error
         "error" : "folder-error-open",
         "errors" : "folder-error-open",
 
@@ -1182,7 +1311,7 @@
         "event" : "folder-event-open",
         "events" : "folder-event-open",
 
-        //font 
+        //font
         "font" : "folder-font-open",
         "fonts" : "folder-font-open",
 
@@ -1194,7 +1323,7 @@
         "gradle" : "folder-gradle-open",
         ".gradle" : "folder-gradle-open",
 
-        //home 
+        //home
         "home" : "folder-home-open",
         "homes" : "folder-home-open",
 
@@ -1207,7 +1336,7 @@
         "icon" : "folder-image-open",
         "icons" : "folder-image-open",
 
-        //in 
+        //in
         "in" : "folder-in-open",
         "input" : "folder-in-open",
 
@@ -1215,7 +1344,7 @@
         "interface" : "folder-interface-open",
         "interfaces" : "folder-interface-open",
 
-        //ios 
+        //ios
         "ios" : "folder-ios-open",
         "apple" : "folder-ios-open",
         "mac" : "folder-ios-open",
@@ -1229,11 +1358,11 @@
         "js" : "folder-javascript-open",
         "script" : "folder-javascript-open",
 
-        //keys 
+        //keys
         "keys" : "folder-keys-open",
         "key" : "folder-keys-open",
 
-        //layout 
+        //layout
         "layout" : "folder-layout-open",
         "ui" : "folder-layout-open",
 
@@ -1251,7 +1380,7 @@
         "middleware" : "folder-middleware-open",
         "middlewares" : "folder-middleware-open",
 
-        //network 
+        //network
         "network" : "folder-network-open",
         "networks" : "folder-network-open",
         "packet" : "folder-network-open",
@@ -1259,7 +1388,7 @@
         "route" : "folder-network-open",
         "routes" : "folder-network-open",
 
-        //node 
+        //node
         "node" : "folder-node-open",
         "node-modules" : "folder-node-open",
         ".node" : "folder-node-open",
@@ -1271,7 +1400,7 @@
         "pkg" : "folder-package-open",
         "pkgs" : "folder-package-open",
 
-        //page 
+        //page
         "page" : "folder-page-open",
         "pages" : "folder-page-open",
         "view" : "folder-page-open",
@@ -1279,15 +1408,15 @@
         "html" : "folder-page-open",
         "htm" : "folder-page-open",
 
-        //pipe 
+        //pipe
         "pipe" : "folder-pipe-open",
         "pipes" : "folder-pipe-open",
 
-        //private 
+        //private
         "private" : "folder-private-open",
         "lock" : "folder-private-open",
 
-        //server 
+        //server
         "server" : "folder-server-open",
         "servers" : "folder-server-open",
         "back" : "folder-server-open",
@@ -1299,7 +1428,7 @@
         "controller" : "folder-src-open",
         "controllers" : "folder-src-open",
 
-        //style 
+        //style
         "style" : "folder-style-open",
         "styles" : "folder-style-open",
         "css" : "folder-style-open",
@@ -1318,7 +1447,7 @@
         "typescript" : "folder-typescript-open",
         "ts" : "folder-typescript-open",
 
-        //vm 
+        //vm
         "vm" : "folder-vm-open",
 
         //vscode
@@ -1390,6 +1519,9 @@
         "changelog" : {
             "iconPath": "../../assets/icons/CHANGELOG.svg"
         },
+        "clojure" : {
+            "iconPath": "../../assets/icons/Clojure.svg"
+        },
         "cobol" : {
             "iconPath": "../../assets/icons/Cobol.svg"
         },
@@ -1400,17 +1532,17 @@
             "iconPath": "../../assets/icons/CMake.svg"
         },
         "csharp" : {
-            "iconPath": "../../assets/icons/Csharp.svg" 
+            "iconPath": "../../assets/icons/Csharp.svg"
         },
         "css" : {
-            "iconPath": "../../assets/icons/CSS.svg" 
+            "iconPath": "../../assets/icons/CSS.svg"
         },
         "dart" : {
             "iconPath": "../../assets/icons/Dart.svg"
         },
         "docker" : {
             "iconPath": "../../assets/icons/Docker.svg"
-        }, 
+        },
         "editor-config" : {
             "iconPath": "../../assets/icons/EditorConfig.svg"
         },
@@ -1492,6 +1624,15 @@
         "maven" : {
             "iconPath": "../../assets/icons/Maven.svg"
         },
+        "minecraft" : {
+            "iconPath": "../../assets/icons/Minecraft.svg"
+        },
+        "minecraft-meta" : {
+            "iconPath": "../../assets/icons/MinecraftMeta.svg"
+        },
+        "minecraft-pack" : {
+            "iconPath": "../../assets/icons/MinecraftPack.svg"
+        },
         "next" : {
             "iconPath": "../../assets/icons/Next.svg"
         },
@@ -1543,6 +1684,9 @@
         "sass" : {
             "iconPath": "../../assets/icons/Sass.svg"
         },
+        "solidity" : {
+            "iconPath": "../../assets/icons/Solidity.svg"
+        },
         "sql" : {
             "iconPath": "../../assets/icons/SQL.svg"
         },
@@ -1554,6 +1698,9 @@
         },
         "tailwind" : {
             "iconPath": "../../assets/icons/Tailwind.svg"
+        },
+        "terrabyte" : {
+            "iconPath": "../../assets/icons/TerrabyteScript.svg"
         },
         "toml" : {
             "iconPath": "../../assets/icons/TOML.svg"
@@ -1588,7 +1735,7 @@
 
 
 
-        //FOLDERS 
+        //FOLDERS
         "folder-abstract" : {
             "iconPath": "../../assets/icons/Folder_ABSTRACT_close.svg"
         },
@@ -1972,6 +2119,84 @@
         },
         "folder-yarn-open" : {
             "iconPath": "../../assets/icons/Folder_YARN_open.svg"
-        }
+        },
+
+        //adobe
+        "adobe-bridge" : {
+            "iconPath": "../../assets/icons/AdobeBridge.svg"
+        },
+        "adobe-after-effects" : {
+            "iconPath": "../../assets/icons/AfterEffects.svg"
+        },
+        "adobe-audition" : {
+            "iconPath": "../../assets/icons/Audition.svg"
+        },
+        "adobe-dreamweather" : {
+            "iconPath": "../../assets/icons/DreamWeather.svg"
+        },
+        "adobe-illustrator" : {
+            "iconPath": "../../assets/icons/Illustrator.svg"
+        },
+        "adobe-incopy" : {
+            "iconPath": "../../assets/icons/InCopy.svg"
+        },
+        "adobe-indesign" : {
+            "iconPath": "../../assets/icons/InDesign.svg"
+        },
+        "adobe-lightroom" : {
+            "iconPath": "../../assets/icons/LightRoom.svg"
+        },
+        "adobe-photoshop" : {
+            "iconPath": "../../assets/icons/Photoshop.svg"
+        },
+        "adobe-premiere-pro" : {
+            "iconPath": "../../assets/icons/PremierePro.svg"
+        },
+
+        //microsoft
+        "ms-docx" : {
+            "iconPath": "../../assets/icons/DOCX.svg"
+        },
+        "ms-note" : {
+            "iconPath": "../../assets/icons/ONE.svg"
+        },
+        "ms-pptx" : {
+            "iconPath": "../../assets/icons/PPTX.svg"
+        },
+        "ms-xlsx" : {
+            "iconPath": "../../assets/icons/XLSX.svg"
+        },
+
+        //jetbrains
+        "jetbrains" : {
+            "iconPath": "../../assets/icons/JetBrains.svg"
+        },
+        "jb-clion" : {
+            "iconPath": "../../assets/icons/Clion.svg"
+        },
+        "jb-goland" : {
+            "iconPath": "../../assets/icons/GoLand.svg"
+        },
+        "jb-intellij" : {
+            "iconPath": "../../assets/icons/IntelliJ.svg"
+        },
+        "jb-phpstorm" : {
+            "iconPath": "../../assets/icons/PhpStorm.svg"
+        },
+        "jb-pycharm" : {
+            "iconPath": "../../assets/icons/PyCharm.svg"
+        },
+        "jb-rubymine" : {
+            "iconPath": "../../assets/icons/RubyMine.svg"
+        },
+        "jb-webstorm" : {
+            "iconPath": "../../assets/icons/WebStorm.svg"
+        },
+
+
+        // award 
+        "award-1k" : {
+            "iconPath": "../../assets/icons/1K.svg"
+        },
     }
 }

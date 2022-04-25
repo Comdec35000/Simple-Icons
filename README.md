@@ -12,13 +12,20 @@ Thank you for the 1k downloads !
 # Changelog
 
 ```diff
-+ fixed node_modules folder has the wrong icon
-+ added microsoft suite icons
-+ added adobe suite icons
-+ added Closure icon
-+ added Solidity icon
-+ added Minecraft-related icons
-+ added Terrabyte Script icon
++ Fixed HTML and CSS icons
++ Fixed ASM icon
++ Fixed Batch icon
++ Fixed Cobol icon
++ Fixed IML icon
++ Fixed PowerShell icon
+
++ Tweaked Ruby and Solidity icons
+
++ Added Crystal icon
++ Added Elexir icon
++ Added NuxtJS icon
++ Added Scala icon
++ Added ViteJS icons
 ```
 
 # Suggest
@@ -30,7 +37,6 @@ You can also make a pull request to add your projects/prefered langages to the t
 
 # Planned features
 
-We plane to add Clojure specific icon
 Consider suggesting icons [here](#Suggest)
 
 

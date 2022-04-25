@@ -265,6 +265,9 @@
         "c++": "cpp",
         "cp": "cpp",
 
+        //crystal 
+        "cr" : "crystal",
+
         //csharp
         "cs": "csharp",
         "csx": "csharp",
@@ -279,6 +282,10 @@
         //docker
         "dockerignore": "docker",
         "dockerfile": "docker",
+
+        //elexir 
+        "ex" : "elexir",
+        "exs" : "elexir",
 
         //env
         "env": "env",
@@ -346,6 +353,7 @@
 
         //javascript
         "js" : "javascript",
+        "ejs" : "javascript",
         "esx": "javascript",
         "mjs": "javascript",
         "js.map": "javascript-map",
@@ -437,10 +445,15 @@
         "scss": "sass",
         "sass": "sass",
 
+        //scala 
+        "sc" : "scala",
+        "scala" : "scala",
+
         //solidity
         "sol" : "solidity",
 
         //sql
+        "db": "sql",
         "sql": "sql",
         "sqlite": "sql",
         "sqlite3": "sql",
@@ -881,6 +894,10 @@
         ".npmignore": "npm",
         ".npmrc": "npm",
 
+        //nuxt
+        "nuxt.config.js" : "nuxt",
+        "nuxt.config.ts" : "nuxt",
+
         //postcss
         "postcss.config.js": "postcss",
         "postcss.config.cjs": "postcss",
@@ -911,6 +928,10 @@
 
         //vsc
         "launch.json" : "vsc",
+
+        //vite 
+        "vite.config.js" : "vite",
+        "vite.config.ts" : "vite",
 
         //vue
         "vue.config.js": "vue",
@@ -1531,6 +1552,9 @@
         "cmake" : {
             "iconPath": "../../assets/icons/CMake.svg"
         },
+        "crystal" : {
+            "iconPath": "../../assets/icons/Crystal.svg"
+        },
         "csharp" : {
             "iconPath": "../../assets/icons/Csharp.svg"
         },
@@ -1545,6 +1569,9 @@
         },
         "editor-config" : {
             "iconPath": "../../assets/icons/EditorConfig.svg"
+        },
+        "elexir" : {
+            "iconPath": "../../assets/icons/Elexir.svg"
         },
         "env" : {
             "iconPath": "../../assets/icons/ENV.svg"
@@ -1645,6 +1672,9 @@
         "npm" : {
             "iconPath": "../../assets/icons/NPM.svg"
         },
+        "nuxt" : {
+            "iconPath": "../../assets/icons/Nuxt.svg"
+        },
         "objc" : {
             "iconPath": "../../assets/icons/ObjectiveC.svg"
         },
@@ -1684,6 +1714,9 @@
         "sass" : {
             "iconPath": "../../assets/icons/Sass.svg"
         },
+        "scala" : {
+            "iconPath": "../../assets/icons/Scala.svg"
+        },
         "solidity" : {
             "iconPath": "../../assets/icons/Solidity.svg"
         },
@@ -1713,6 +1746,9 @@
         },
         "vim" : {
             "iconPath": "../../assets/icons/Vim.svg"
+        },
+        "vite" : {
+            "iconPath": "../../assets/icons/Vite.svg"
         },
         "visualstudio" : {
             "iconPath": "../../assets/icons/VisualStudio.svg"

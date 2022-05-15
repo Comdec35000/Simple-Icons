@@ -243,6 +243,9 @@
         "dll" : "binaries",
         "dlc" : "binaries",
 
+        //c-- 
+        "c--" : "c--",
+
         //c
         "c" : "c",
 
@@ -283,18 +286,30 @@
         "dockerignore": "docker",
         "dockerfile": "docker",
 
+        //ejs 
+        "ejs" : "ejs",
+
         //elexir 
         "ex" : "elexir",
         "exs" : "elexir",
 
+        //elm 
+        "elm" : "elm",
+
         //env
         "env": "env",
+
+        //erlang
+        "erl" : "erlang",
 
         //fsharp
         "fs" : "fsharp",
         "fsi" : "fsharp",
         "fsx" : "fsharp",
         "fsscript" : "fsharp",
+
+        //figma
+        "fig" : "figma",
 
         //git
         "patch": "git",
@@ -353,7 +368,6 @@
 
         //javascript
         "js" : "javascript",
-        "ejs" : "javascript",
         "esx": "javascript",
         "mjs": "javascript",
         "js.map": "javascript-map",
@@ -365,6 +379,9 @@
         "ipr" : "jetbrains",
         "iws" : "jetbrains",
 
+        //julia 
+        "jl" : "julia",
+
         //json
         "json": "json",
         "tsbuildinfo": "json",
@@ -375,6 +392,9 @@
         //kotlin
         "kt": "kotlin",
         "kts": "kotlin",
+
+        //lisp 
+        "lisp" : "lisp",
 
         //lua
         "lua": "lua",
@@ -420,6 +440,9 @@
         "psc1": "powershell",
         "pssc": "powershell",
 
+        //prisma 
+        "prisma" : "prisma",
+
         //pyc
         "pyc": "pyc",
         "whl": "pyc",
@@ -429,6 +452,9 @@
 
         //quark
         "qrk" : "quark",
+
+        //r 
+        "r" : "r",
 
         //react
         "jsx": "react",
@@ -610,6 +636,10 @@
         //javascript
         "javascript" : "javascript",
 
+        //julia
+        "julia" : "julia",
+        "juliamarkdown" : "julia",
+
         //json
         "json": "json",
         "jsonc": "json",
@@ -646,6 +676,9 @@
 
         //python
         "python": "python",
+
+        //r 
+        "r" : "r",
 
         //react
         "javascriptreact": "react",
@@ -713,6 +746,9 @@
         ".angular-cli.json": "angular",
         "angular.json": "angular",
 
+        //blitz 
+        "blitz.config.js" : "blitz",
+
         //cargo
         "cargo.toml" : "cargo",
 
@@ -727,6 +763,9 @@
 
         //dart
         ".pubignore": "dart",
+
+        //django 
+        "manage.py" : "django",
 
         //docker
         "dockerfile": "docker",
@@ -851,6 +890,12 @@
         "graphql.config.yaml": "graphql",
         "graphql.config.yml": "graphql",
 
+        //heroku 
+        "Procfile" : "heroku",
+
+        //jest
+        "jest.config.js" : "jest",
+
         //jetbrains
         "modules.xml" : "jetbrains",
         "workspace.xml" : "jetbrains",
@@ -919,6 +964,20 @@
         "readme.md" : "readme",
         "readme.txt" : "readme",
 
+        //rollup 
+        "rollup.config.js" : "rollup",
+
+         //todo 
+         "todo" : "todo",
+         "todo.md" : "todo",
+         "todo.txt" : "todo",
+         "Todo" : "todo",
+         "Todo.md" : "todo",        
+         "Todo.txt" : "todo",
+         "TODO" : "todo",
+         "TODO.md" : "todo",        
+         "TODO.txt" : "todo", 
+
         //tailwind
         "tailwind.js": "tailwind",
         "tailwind.ts": "tailwind",
@@ -938,6 +997,9 @@
         "vue.config.ts": "vue",
         "vetur.config.js": "vue",
         "vetur.config.ts": "vue",
+
+        //webpack 
+        "webpack.config.js" : "webpack",
 
         //xml
         ".htaccess": "xml",
@@ -1531,6 +1593,12 @@
         "binaries" : {
             "iconPath": "../../assets/icons/Binaries.svg"
         },
+        "blitz" : {
+            "iconPath": "../../assets/icons/BlitzJS.svg"
+        },
+        "c--" : {
+            "iconPath": "../../assets/icons/C--.svg"
+        },
         "c" : {
             "iconPath": "../../assets/icons/C.svg"
         },
@@ -1564,20 +1632,35 @@
         "dart" : {
             "iconPath": "../../assets/icons/Dart.svg"
         },
+        "django" : {
+            "iconPath": "../../assets/icons/Django.svg"
+        },
         "docker" : {
             "iconPath": "../../assets/icons/Docker.svg"
         },
         "editor-config" : {
             "iconPath": "../../assets/icons/EditorConfig.svg"
         },
+        "ejs" : {
+            "iconPath": "../../assets/icons/EJS.svg"
+        },
         "elexir" : {
             "iconPath": "../../assets/icons/Elexir.svg"
+        },
+        "elm" : {
+            "iconPath": "../../assets/icons/Elm.svg"
         },
         "env" : {
             "iconPath": "../../assets/icons/ENV.svg"
         },
+        "erlang" : {
+            "iconPath": "../../assets/icons/Erlang.svg"
+        },
         "eslint" : {
             "iconPath": "../../assets/icons/Eslint.svg"
+        },
+        "figma" : {
+            "iconPath": "../../assets/icons/Figma.svg"
         },
         "fsharp" : {
             "iconPath": "../../assets/icons/Fsharp.svg"
@@ -1606,6 +1689,9 @@
         "haxe" : {
             "iconPath": "../../assets/icons/Haxe.svg"
         },
+        "heroku" : {
+            "iconPath": "../../assets/icons/Heroku.svg"
+        },
         "hpp" : {
             "iconPath": "../../assets/icons/HPP.svg"
         },
@@ -1630,14 +1716,23 @@
         "javascript" : {
             "iconPath": "../../assets/icons/Javascript.svg"
         },
+        "jest" : {
+            "iconPath": "../../assets/icons/Jest.svg"
+        },
         "json" : {
             "iconPath": "../../assets/icons/JSON.svg"
+        },
+        "julia" : {
+            "iconPath": "../../assets/icons/Julia.svg"
         },
         "kotlin" : {
             "iconPath": "../../assets/icons/Kotlin.svg"
         },
         "license" : {
             "iconPath": "../../assets/icons/LICENSE.svg"
+        },
+        "lisp" : {
+            "iconPath": "../../assets/icons/Lisp.svg"
         },
         "lua" : {
             "iconPath": "../../assets/icons/Lua.svg"
@@ -1690,6 +1785,9 @@
         "powershell" : {
             "iconPath": "../../assets/icons/Powershell.svg"
         },
+        "prisma" : {
+            "iconPath": "../../assets/icons/Prisma.svg"
+        },
         "pyc" : {
             "iconPath": "../../assets/icons/Pyc.svg"
         },
@@ -1699,11 +1797,17 @@
         "quark" : {
             "iconPath": "../../assets/icons/Quark.svg"
         },
+        "r" : {
+            "iconPath": "../../assets/icons/R.svg"
+        },
         "react" : {
             "iconPath": "../../assets/icons/React.svg"
         },
         "readme" : {
             "iconPath": "../../assets/icons/README.svg"
+        },
+        "rollup" : {
+            "iconPath": "../../assets/icons/Rollup.svg"
         },
         "ruby" : {
             "iconPath": "../../assets/icons/Ruby.svg"
@@ -1735,6 +1839,9 @@
         "terrabyte" : {
             "iconPath": "../../assets/icons/TerrabyteScript.svg"
         },
+        "todo" : {
+            "iconPath": "../../assets/icons/TODO.svg"
+        },
         "toml" : {
             "iconPath": "../../assets/icons/TOML.svg"
         },
@@ -1761,6 +1868,9 @@
         },
         "wasm" : {
             "iconPath": "../../assets/icons/WASM.svg"
+        },
+        "webpack" : {
+            "iconPath": "../../assets/icons/Webpack.svg"
         },
         "xml" : {
             "iconPath": "../../assets/icons/XML.svg"

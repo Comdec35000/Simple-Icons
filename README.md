@@ -12,20 +12,26 @@ Thank you for the 1k downloads !
 # Changelog
 
 ```diff
-+ Fixed HTML and CSS icons
-+ Fixed ASM icon
-+ Fixed Batch icon
-+ Fixed Cobol icon
-+ Fixed IML icon
-+ Fixed PowerShell icon
++ Fixed Git icon
++ Fixed Kotlin icon
++ Fixed Ruby icon
 
-+ Tweaked Ruby and Solidity icons
-
-+ Added Crystal icon
-+ Added Elexir icon
-+ Added NuxtJS icon
-+ Added Scala icon
-+ Added ViteJS icons
++ Added Blitz icon
++ Added C-- icon
++ Added Django icon
++ Added EJS icon
++ Added Elm icon
++ Added Erlang icon
++ Added Figma icon
++ Added Procfile icon
++ Added Jest icon
++ Added Julia icon
++ Added Lisp icon
++ Added Prisma icon
++ Added R icon
++ Added Rollup icon
++ Added TODO icon
++ Added Webpack icon
 ```
 
 # Suggest

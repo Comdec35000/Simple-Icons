@@ -196,12 +196,19 @@
         
         // FILES
 
+        //ada 
+        "adb" : "ada",
+        "ads" : "ada",
+
         //agda
         "agda" : "agda",
         "lagda" : "agda",
         "lagda.md" : "agda",
         "lagda.rst" : "agda",
         "lagda.tex" : "agda",
+
+        //android
+        "apk" : "android",
 
         //angular
         "module.ts": "angular",
@@ -243,11 +250,17 @@
         "dll" : "binaries",
         "dlc" : "binaries",
 
+        //brainfuck 
+        "bf" : "brainfuck",
+
         //c-- 
         "c--" : "c--",
 
         //c
         "c" : "c",
+
+        //cabal
+        "cabal" : "cabal",
 
         //clojure
         "clj" : "clojure",
@@ -279,6 +292,9 @@
         "css": "css",
         "css.map": "css",
 
+        //d
+        "d" : "d",
+
         //dart
         "dart": "dart",
 
@@ -302,6 +318,11 @@
         //erlang
         "erl" : "erlang",
 
+        //fortan
+        "f" : "fortan",
+        "for" : "fortan",
+        "f90" : "fortan",
+
         //fsharp
         "fs" : "fsharp",
         "fsi" : "fsharp",
@@ -314,6 +335,9 @@
         //git
         "patch": "git",
 
+        //glsl 
+        "glsl" : "glsl",
+
         //go
         "go" : "go",
 
@@ -324,6 +348,9 @@
         "graphql": "graphql",
         "gql": "graphql",
 
+        //groovy 
+        "groovy" : "groovy",
+
         //h
         "h" : "h",
 
@@ -332,6 +359,9 @@
 
         //haxe
         "hx": "haxe",
+
+        //holyc
+        "hc": "holyc",
 
         //hpp
         "hh": "hpp",
@@ -369,10 +399,6 @@
         //javascript
         "js" : "javascript",
         "esx": "javascript",
-        "mjs": "javascript",
-        "js.map": "javascript-map",
-        "mjs.map": "javascript-map",
-        "cjs.map": "javascript-map",
 
         //jetbrains
         "iml" : "jetbrains",
@@ -393,6 +419,10 @@
         "kt": "kotlin",
         "kts": "kotlin",
 
+        //laravel 
+        "blade.php": "laravel",
+        "inky.php": "laravel",
+
         //lisp 
         "lisp" : "lisp",
 
@@ -408,10 +438,17 @@
         //minecraft-meta
         "mcmeta" : "minecraft-meta",
 
+        //mjs 
+        "mjs": "mjs",
+
         //md
         "md": "md",
         "markdown": "md",
         "rst": "md",
+
+        //nim 
+        "nim" : "nim",
+        "nims" : "nim",
 
         //ninja
         "ninja" : "ninja",
@@ -419,6 +456,9 @@
         //objc
         "m" : "objc",
         "mm" : "objc",
+
+        //pdf 
+        "pdf" : "pdf",
 
         //perl
         "pl" : "perl",
@@ -486,6 +526,9 @@
         "pgsql": "sql",
         "psql": "sql",
 
+        //svelte
+        "svelte" : "svelte",
+
         //svg
         "svg": "svg",
 
@@ -511,6 +554,9 @@
 
         //toml
         "toml": "toml",
+
+        //unity 
+        "meta" : "unity",
 
         //vbs
         "vb": "vba",
@@ -562,6 +608,16 @@
         "yml.dist": "yaml",
         "yaml.dist": "yaml",
         "YAML-tmLanguage": "yaml",
+
+        //zig
+        "zig" : "zig",
+
+        //zip  
+        "zip" : "zip",
+        "gz" : "zip",
+        "tar" : "zip",
+        "tar.gz" : "zip",
+        "rar" : "zip",
     },
 
     "languageIds": {
@@ -616,6 +672,9 @@
 
         //graphql
         "graphql": "graphql",
+
+        //groovy 
+        "groovy" : "groovy",
 
         //haskell
         "haskell": "haskell",
@@ -709,6 +768,9 @@
         //toml
         "toml": "toml",
 
+        //unity 
+        "shaderlab" : "unity",
+
         //vbs
         "vb" : "vbs",
 
@@ -746,8 +808,15 @@
         ".angular-cli.json": "angular",
         "angular.json": "angular",
 
+        //astro 
+        "astro.mjs" : "astro",
+
         //blitz 
         "blitz.config.js" : "blitz",
+
+        //cabal 
+        "cabal.project.local" : "cabal",
+        "cabal.project" : "cabal",
 
         //cargo
         "cargo.toml" : "cargo",
@@ -855,6 +924,9 @@
         ".eslintignore": "eslint",
         ".eslintcache": "eslint",
 
+        //gemfile 
+        "gemfile": "gemfile",
+
         //git
         ".gitignore": "git",
         ".gitignore_global": "git",
@@ -908,6 +980,13 @@
         ".esformatter": "json",
         "cdp.pid": "json",
         ".lintstagedrc": "json",
+
+        //kotlin-main
+        "Main.kt" : "kotlin-main",
+        "Main.kts" : "kotlin-main",
+
+        //laravel 
+        "artisan": "laravel",
 
         //license
         "license" : "license",
@@ -964,6 +1043,9 @@
         "readme.md" : "readme",
         "readme.txt" : "readme",
 
+        //redwood 
+        "redwood.toml" : "redwood",
+
         //rollup 
         "rollup.config.js" : "rollup",
 
@@ -984,6 +1066,9 @@
         "tailwind.config.js": "tailwind",
         "tailwind.config.ts": "tailwind",
         "tailwind.config.cjs": "tailwind",
+
+        //tauri 
+        "tauri.conf.json" : "tauri",
 
         //vsc
         "launch.json" : "vsc",
@@ -1473,9 +1558,9 @@
 
         //node
         "node" : "folder-node-open",
-        "node-modules" : "folder-node-open",
+        "node_modules" : "folder-node-open",
         ".node" : "folder-node-open",
-        ".node-modules" : "folder-node-open",
+        ".node_modules" : "folder-node-open",
 
         //package
         "package" : "folder-package-open",
@@ -1571,18 +1656,26 @@
         },
 
         //files
-
+        "ada" : {
+            "iconPath": "../../assets/icons/Ada.svg"
+        },
         "agda" : {
             "iconPath": "../../assets/icons/Agda.svg"
         },
         "angular" : {
             "iconPath": "../../assets/icons/Angular.svg"
         },
+        "android" : {
+            "iconPath": "../../assets/icons/Android.svg"
+        },
         "apple" : {
             "iconPath": "../../assets/icons/Apple.svg"
         },
         "asm" : {
             "iconPath": "../../assets/icons/ASM.svg"
+        },
+        "astro" : {
+            "iconPath": "../../assets/icons/Astro.svg"
         },
         "bash" : {
             "iconPath": "../../assets/icons/Bash.svg"
@@ -1596,11 +1689,17 @@
         "blitz" : {
             "iconPath": "../../assets/icons/BlitzJS.svg"
         },
+        "brainfuck" : {
+            "iconPath": "../../assets/icons/Brainfuck.svg"
+        },
         "c--" : {
             "iconPath": "../../assets/icons/C--.svg"
         },
         "c" : {
             "iconPath": "../../assets/icons/C.svg"
+        },
+        "cabal" : {
+            "iconPath": "../../assets/icons/Cabal.svg"
         },
         "cargo" : {
             "iconPath": "../../assets/icons/Cargo.svg"
@@ -1628,6 +1727,9 @@
         },
         "css" : {
             "iconPath": "../../assets/icons/CSS.svg"
+        },
+        "d" : {
+            "iconPath": "../../assets/icons/D.svg"
         },
         "dart" : {
             "iconPath": "../../assets/icons/Dart.svg"
@@ -1662,11 +1764,20 @@
         "figma" : {
             "iconPath": "../../assets/icons/Figma.svg"
         },
+        "fortan" : {
+            "iconPath": "../../assets/icons/Fortan.svg"
+        },
         "fsharp" : {
             "iconPath": "../../assets/icons/Fsharp.svg"
         },
+        "gemfile" : {
+            "iconPath": "../../assets/icons/Gemfile.svg"
+        },
         "git" : {
             "iconPath": "../../assets/icons/Git.svg"
+        },
+        "glsl" : {
+            "iconPath": "../../assets/icons/GLSL.svg"
         },
         "go" : {
             "iconPath": "../../assets/icons/GO.svg"
@@ -1680,6 +1791,9 @@
         "graphql" : {
             "iconPath": "../../assets/icons/GraphQL.svg"
         },
+        "groovy" : {
+            "iconPath": "../../assets/icons/Groovy.svg"
+        },
         "h" : {
             "iconPath": "../../assets/icons/H.svg"
         },
@@ -1691,6 +1805,9 @@
         },
         "heroku" : {
             "iconPath": "../../assets/icons/Heroku.svg"
+        },
+        "holyc" : {
+            "iconPath": "../../assets/icons/HolyC.svg"
         },
         "hpp" : {
             "iconPath": "../../assets/icons/HPP.svg"
@@ -1728,6 +1845,12 @@
         "kotlin" : {
             "iconPath": "../../assets/icons/Kotlin.svg"
         },
+        "kotlin-main" : {
+            "iconPath": "../../assets/icons/Kotlin Main.svg"
+        },
+        "laravel" : {
+            "iconPath": "../../assets/icons/Laravel.svg"
+        },
         "license" : {
             "iconPath": "../../assets/icons/LICENSE.svg"
         },
@@ -1755,11 +1878,17 @@
         "minecraft-pack" : {
             "iconPath": "../../assets/icons/MinecraftPack.svg"
         },
+        "mjs" : {
+            "iconPath": "../../assets/icons/MJS.svg"
+        },
         "next" : {
             "iconPath": "../../assets/icons/Next.svg"
         },
         "ninja" : {
             "iconPath": "../../assets/icons/Ninja.svg"
+        },
+        "nim" : {
+            "iconPath": "../../assets/icons/Nim.svg"
         },
         "node" : {
             "iconPath": "../../assets/icons/Node.svg"
@@ -1772,6 +1901,9 @@
         },
         "objc" : {
             "iconPath": "../../assets/icons/ObjectiveC.svg"
+        },
+        "pdf" : {
+            "iconPath": "../../assets/icons/PDF.svg"
         },
         "perl" : {
             "iconPath": "../../assets/icons/Perl.svg"
@@ -1806,6 +1938,9 @@
         "readme" : {
             "iconPath": "../../assets/icons/README.svg"
         },
+        "redwood" : {
+            "iconPath": "../../assets/icons/Redwood.svg"
+        },
         "rollup" : {
             "iconPath": "../../assets/icons/Rollup.svg"
         },
@@ -1827,6 +1962,9 @@
         "sql" : {
             "iconPath": "../../assets/icons/SQL.svg"
         },
+        "svelte" : {
+            "iconPath": "../../assets/icons/Svelte.svg"
+        },
         "svg" : {
             "iconPath": "../../assets/icons/SVG.svg"
         },
@@ -1835,6 +1973,9 @@
         },
         "tailwind" : {
             "iconPath": "../../assets/icons/Tailwind.svg"
+        },
+        "tauri" : {
+            "iconPath": "../../assets/icons/Tauri.svg"
         },
         "terrabyte" : {
             "iconPath": "../../assets/icons/TerrabyteScript.svg"
@@ -1848,8 +1989,14 @@
         "typescript" : {
             "iconPath": "../../assets/icons/TypeScript.svg"
         },
+        "unity" : {
+            "iconPath": "../../assets/icons/Unity.svg"
+        },
         "vba" : {
             "iconPath": "../../assets/icons/VBA.svg"
+        },
+        "vector" : {
+            "iconPath": "../../assets/icons/Vector.svg"
         },
         "vim" : {
             "iconPath": "../../assets/icons/Vim.svg"
@@ -1877,6 +2024,12 @@
         },
         "yaml" : {
             "iconPath": "../../assets/icons/YAML.svg"
+        },
+        "zig" : {
+            "iconPath": "../../assets/icons/Zig.svg"
+        },
+        "zip" : {
+            "iconPath": "../../assets/icons/ZIP.svg"
         },
 
 
